@@ -21,7 +21,7 @@ public class ProductEntity {
     @DatabaseField(generatedId = true)
     private Long id;
     
-    @DatabaseField( dataType = DataType.UUID , unique = true)
+    @DatabaseField( unique = true)
     private String remoteId;
     
     //TODO... dodać potrzebne pola, getery

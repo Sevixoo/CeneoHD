@@ -16,28 +16,26 @@ import java.util.stream.Collectors;
  *
  * @author seweryn
  */
-public class TransformProductUseCase implements UseCase<List<ProductDTO>,List<ProductEntity>>{
+public class TransformProductUseCase implements UseCase<ProductDTO,ProductEntity>{
     
     public TransformProductUseCase(){ }
     
     @Override
-    public List<ProductEntity> execute(List<ProductDTO> dtoList) throws Throwable{
-        return dtoList.stream().map((productDto) -> { 
-            ProductEntity productEntity = new ProductEntity(
-                    productDto.getRemoteId()
+    public ProductEntity execute(ProductDTO productDto) throws Throwable{
+        ProductEntity productEntity = new ProductEntity(
+                productDto.getRemoteId()
+                //TODO... implementacja mapowania DTO -> Entity
+        );
+        List<ReviewEntity> reviewEntities = productDto.getReviews().stream().map((reviewDto) -> {
+            ReviewEntity reviewEntity = new ReviewEntity(
+                    reviewDto.getRemoteId()
                     //TODO... implementacja mapowania DTO -> Entity
             );
-            List<ReviewEntity> reviewEntities = productDto.getReviews().stream().map((reviewDto) -> {
-                ReviewEntity reviewEntity = new ReviewEntity(
-                        reviewDto.getRemoteId()
-                        //TODO... implementacja mapowania DTO -> Entity
-                );
-                reviewEntity.setProduct(productEntity);
-                return reviewEntity;
-            }).collect(Collectors.toList()); 
-            productEntity.setReviews(reviewEntities);
-            return productEntity; 
-        }).collect(Collectors.toList());
+            reviewEntity.setProduct(productEntity);
+            return reviewEntity;
+        }).collect(Collectors.toList()); 
+        productEntity.setReviews(reviewEntities);
+        return productEntity; 
     }
     
 }

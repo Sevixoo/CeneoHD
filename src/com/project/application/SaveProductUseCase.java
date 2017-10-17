@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class SaveProductUseCase implements UseCase<List<ProductEntity>,Boolean>{
+public class SaveProductUseCase implements UseCase<ProductEntity,Void>{
     
     private final IProductRepository productRepository;
      
@@ -25,11 +25,9 @@ public class SaveProductUseCase implements UseCase<List<ProductEntity>,Boolean>{
     }
     
     @Override
-    public Boolean execute(List<ProductEntity> data) throws Throwable{
-         data.stream().forEach((item) -> {
-             productRepository.saveProduct(item);
-         });
-         return true;
+    public Void execute(ProductEntity data) throws Throwable{
+         productRepository.saveProduct(data);
+         return null;
     }
     
 }

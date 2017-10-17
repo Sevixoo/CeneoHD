@@ -18,7 +18,7 @@ public class ORMLiteDataBaseService implements IORMLiteDataBaseService {
     private static String TAG = ORMLiteDataBaseService.class.getName();
     private static final int DB_VERSION = 4;
 
-    private final String PATH_TO_DATABASE = "./data/";
+    private final String PATH_TO_DATABASE = "./";
 
     private ORMLiteDatabase ormLiteDatabase;
 

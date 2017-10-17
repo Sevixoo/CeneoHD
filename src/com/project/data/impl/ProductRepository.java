@@ -45,6 +45,12 @@ public class ProductRepository implements IProductRepository{
     }
     
     @Override
+    public List<ReviewEntity> loadReviews(String productId){
+        //TODO... loadporducts where productId 
+        return null;
+    }
+    
+    @Override
     public void saveReview( String productRemoteId, ReviewEntity reviewEntity){
         //TODO... sprawdzenie czy product istnieje i dodanie opini
         //jeśli opinia istnieje. DatabaseException

@@ -1,9 +1,14 @@
 
 package com.project;
 
+import com.project.application.ClearDatabaseUseCase;
+import com.project.application.ExportReviewsUseCase;
 import com.project.application.ExtractProductUseCase;
 import com.project.application.InitializeApplicationUseCase;
+import com.project.application.LoadProductsUseCase;
+import com.project.application.LoadReviewsUseCase;
 import com.project.application.SaveProductUseCase;
+import com.project.application.SearchProductsUseCase;
 import com.project.application.TransformProductUseCase;
 import com.project.base.ThreadUseCaseExecutor;
 import com.project.base.UseCaseExecutor;
@@ -16,6 +21,8 @@ import com.project.provider.IProductProvider;
 import com.project.provider.IWebClientService;
 import com.project.provider.impl.ProductProvider;
 import com.project.provider.impl.WebClientService;
+import com.project.service.impl.CSVExporterService;
+import com.project.service.impl.TxTExporterService;
 import com.project.view.dashboard.DashboardForm;
 import javax.swing.JFrame;
 
@@ -44,6 +51,7 @@ public class CeneoHDApplication {
      
           
     private CeneoHDApplication(){
+        application = this;
         useCaseExecutor = new ThreadUseCaseExecutor();
         webClientService = new WebClientService(); 
         openNewForm(new DashboardForm());
@@ -83,6 +91,26 @@ public class CeneoHDApplication {
     
     public InitializeApplicationUseCase provideInitializeApplicationUseCase(){
         return new InitializeApplicationUseCase(provideORMLiteDataBaseService());
+    }
+    
+    public LoadProductsUseCase provideLoadProductsUseCase(){
+        return new LoadProductsUseCase(provideProductRepository());
+    }
+    
+    public ExportReviewsUseCase provideExportReviewsUseCase(){
+        return new ExportReviewsUseCase(provideProductRepository(),new CSVExporterService(),new TxTExporterService());
+    }
+    
+    public ClearDatabaseUseCase provideClearDatabaseUseCase(){
+        return new ClearDatabaseUseCase(provideORMLiteDataBaseService());
+    }
+    
+    public LoadReviewsUseCase provideLoadReviewsUseCase(){
+        return new LoadReviewsUseCase(provideProductRepository());
+    }
+    
+    public SearchProductsUseCase provideSearchProductsUseCase(){
+        return new SearchProductsUseCase(provideProductProvider());
     }
      
     public final void openNewForm(JFrame jFrame){

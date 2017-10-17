@@ -14,7 +14,7 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class ExtractProductUseCase implements UseCase<String,List<ProductDTO>>{
+public class ExtractProductUseCase implements UseCase<String,ProductDTO>{
     
     private final IProductProvider productProvider;
     
@@ -23,8 +23,8 @@ public class ExtractProductUseCase implements UseCase<String,List<ProductDTO>>{
     }
     
     @Override
-    public List<ProductDTO> execute(String request) throws Throwable{
-        return productProvider.getProducts(request);
+    public ProductDTO execute(String request) throws Throwable{
+        return productProvider.getReviews(request);
     }
     
 }

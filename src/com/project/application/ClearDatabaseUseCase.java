@@ -5,10 +5,25 @@
  */
 package com.project.application;
 
+import com.project.base.UseCase;
+import com.project.data.IORMLiteDataBaseService;
+
 /**
  *
  * @author seweryn
  */
-public class ClearDatabaseUseCase {
-    //TODO...
+public class ClearDatabaseUseCase implements UseCase<Void,Void>{
+   
+    private final IORMLiteDataBaseService dataBaseService;
+    
+    public ClearDatabaseUseCase( IORMLiteDataBaseService dataBaseService){
+        this.dataBaseService = dataBaseService;
+    }
+    
+    @Override
+    public Void execute(Void request) throws Throwable{
+        dataBaseService.clearDatabase();
+        return null;
+    }
+    
 }

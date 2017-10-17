@@ -5,10 +5,25 @@
  */
 package com.project.application;
 
+import com.project.base.UseCase;
+import com.project.data.IProductRepository;
+import com.project.data.entity.ProductEntity;
+import java.util.List;
+
 /**
  *
  * @author seweryn
  */
-public class LoadProductsUseCase {
-    //TODO...
+public class LoadProductsUseCase implements UseCase<Void,List<ProductEntity>>{
+     
+    private IProductRepository productRepository;
+    
+    public LoadProductsUseCase(IProductRepository productRepository){
+        this.productRepository = productRepository;
+    }
+    
+    public List<ProductEntity> execute(Void request) throws Throwable{
+        return productRepository.loadProducts();
+    }
+   
 }

@@ -21,6 +21,8 @@ public interface IProductRepository {
        
     List<ReviewEntity> loadReviews() throws DatabaseException;  
     
+    List<ReviewEntity> loadReviews(String productId) throws DatabaseException;  
+    
     void saveReview( String productRemoteId, ReviewEntity reviewEntity) throws DatabaseException;
     
 }

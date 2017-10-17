@@ -31,6 +31,7 @@ public class ThreadUseCaseExecutor implements UseCaseExecutor {
         executor.execute(() -> {
             try{
                 System.out.println("["+usecase.getClass().getSimpleName()+"] execute");
+                Thread.sleep(500);//for testing
                 RESPONSE_OBJECT response = usecase.execute(argument);
                 EventQueue.invokeLater(() -> {
                     System.out.println("["+usecase.getClass().getSimpleName()+"] success");
