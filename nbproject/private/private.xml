@@ -3,30 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/ExportReviewsUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/LoadProductsUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/impl/ORMLiteDataBaseService.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/products/ProductsTableModel.java</file>
             <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/CeneoHDApplication.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/SaveProductUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/service/IExporterService.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/provider/ProviderException.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/ExtractProductUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/InitializeApplicationUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/IORMLiteDataBase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/DAO.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/provider/IProductProvider.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/LoadReviewsUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/IProductRepository.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/SearchProductsUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/service/impl/CSVExporterService.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/impl/ProductRepository.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/provider/IWebClientService.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/ClearDatabaseUseCase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/entity/ReviewEntity.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/IORMLiteDataBaseService.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/entity/ProductEntity.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/data/impl/ORMLiteDatabase.java</file>
-            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/application/TransformProductUseCase.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/importer/LoadImporterPanel.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/exporter/ExporterForm.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/importer/ExtractImporterPanel.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/importer/ImporterForm.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/dashboard/DashboardForm.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/reviews/ReviewsTableModel.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/importer/TransformImporterPanel.java</file>
+            <file>file:/Users/seweryn/NetBeansProjects/CeneoHD/src/com/project/products/SearchProductTableModel.java</file>
         </group>
     </open-files>
 </project-private>
