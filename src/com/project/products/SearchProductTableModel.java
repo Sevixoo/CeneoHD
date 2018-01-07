@@ -27,9 +27,9 @@ public class SearchProductTableModel extends AbstractTableModel {
     
     private final List<ProductVM> dataList;
      
-    String[] columnNames = {"Product name","Remote id", "Action"};
+    String[] columnNames = {"Product name","Remote id", "Params", "Category", "Price", "Action"};
     
-    private static final Class<?>[] COLUMN_TYPES = new Class<?>[] {String.class, String.class, JButton.class};
+    private static final Class<?>[] COLUMN_TYPES = new Class<?>[] {String.class, String.class, String.class, String.class, String.class, JButton.class};
 
     private final OnItemActionClickListener onItemActionClickListener;
     
@@ -61,8 +61,14 @@ public class SearchProductTableModel extends AbstractTableModel {
             case 0: return productVM.getName();
             
             case 1: return productVM.getRmoteId();
+            
+            case 2: return productVM.getParams();
+            
+            case 3: return productVM.getCategory();
+            
+            case 4: return productVM.getPrice();
               
-            case 2: 
+            case 5: 
                 final JButton button = new JButton("select");
                 button.addActionListener(new ActionListener() {
                     public void actionPerformed(ActionEvent arg0) {

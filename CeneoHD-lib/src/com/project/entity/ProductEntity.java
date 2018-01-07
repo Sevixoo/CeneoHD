@@ -25,18 +25,40 @@ public class ProductEntity {
     @DatabaseField( unique = true)
     private String remoteId;
     
-    //TODO... dodać potrzebne pola, getery
+    @DatabaseField
+    private String category;
+    
+    @DatabaseField
+    private String name;
+     
+    @DatabaseField
+    private String params;
+    
+    @DatabaseField
+    private String price;
+    
+    @DatabaseField
+    private Double score;
+    
+    @DatabaseField
+    private String reviewsDesc;
     
     @ForeignCollectionField(eager = false)
     private Collection<ReviewEntity> reviews;
     
     public ProductEntity( ) { }
     
-    public ProductEntity( String remoteId /* więcej parametrów */ ) {
+    public ProductEntity( String remoteId, String category, String name, String params, String price, Double score, String reviewsDesc ) {
         this.id = null;
         this.remoteId = remoteId;
+        this.category = category;
+        this.name = name;
+        this.params = params;
+        this.price = price;
+        this.score = score;
+        this.reviewsDesc = reviewsDesc;
     }
-    
+     
     public Long getId() {
         return id;
     }
@@ -56,5 +78,55 @@ public class ProductEntity {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getParams() {
+        return params;
+    }
+
+    public void setParams(String params) {
+        this.params = params;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public Double getScore() {
+        return score;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
+
+    public String getReviewsDesc() {
+        return reviewsDesc;
+    }
+
+    public void setReviewsDesc(String reviewsDesc) {
+        this.reviewsDesc = reviewsDesc;
+    }
+    
+    
     
 }

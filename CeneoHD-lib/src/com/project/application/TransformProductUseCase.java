@@ -23,8 +23,13 @@ public class TransformProductUseCase implements UseCase<ProductDTO,ProductEntity
     @Override
     public ProductEntity execute(ProductDTO productDto) throws Throwable{
         ProductEntity productEntity = new ProductEntity(
-                productDto.getRemoteId()
-                //TODO... implementacja mapowania DTO -> Entity
+                productDto.getRemoteId(),
+                productDto.getCategory(),
+                productDto.getName(),
+                productDto.getParams(),
+                productDto.getPrice(),
+                productDto.getScore(),
+                productDto.getReviewsDesc()
         );
         List<ReviewEntity> reviewEntities = productDto.getReviews().stream().map((reviewDto) -> {
             ReviewEntity reviewEntity = new ReviewEntity(

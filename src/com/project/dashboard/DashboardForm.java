@@ -173,8 +173,10 @@ public class DashboardForm extends javax.swing.JFrame implements ProductsTableMo
             for(ProductEntity entity : result){
                 productsVM.add(new ProductVM(
                         entity.getRemoteId(), 
-                        entity.getRemoteId(), 
-                        "aaaa"
+                        entity.getName(), 
+                        entity.getCategory(),
+                        entity.getParams(),
+                        entity.getPrice()
                 ));
             } 
             productsTableModel.setData(productsVM);

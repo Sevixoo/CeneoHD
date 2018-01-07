@@ -18,29 +18,24 @@ public class ProductDTO {
     
     private String category;
     
-    private String model;
+    private String name;
+     
+    private String params;
     
-    private String mark;
+    private String price;
     
-    private String description;
+    private Double score;
+    
+    private String reviewsDesc;
     
     private Collection<ReviewDTO> reviews;
     
     public ProductDTO(){ }
     
-    public ProductDTO(String remoteId, String category, String model, String mark,String description){ 
-        this(remoteId,null,category,model,mark, description);
-    }
-    
-    public ProductDTO(String remoteId, Collection<ReviewDTO> reviews, String category, String model, String mark,String description){ 
+    public ProductDTO(String remoteId){ 
         this.remoteId = remoteId;
-        this.reviews = reviews;
-        this.category = category;
-        this.model = model;
-        this.mark = mark;
-        this.description = description;
     }
-    
+      
     public String getRemoteId(){
         return this.remoteId;
     }
@@ -65,30 +60,44 @@ public class ProductDTO {
         this.category = category;
     }
 
-    public String getModel() {
-        return model;
+    public String getName() {
+        return name;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getMark() {
-        return mark;
+    public String getParams() {
+        return params;
     }
 
-    public void setMark(String mark) {
-        this.mark = mark;
-    }
-    
-    public String getDescription() {
-        return description;
+    public void setParams(String params) {
+        this.params = params;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public String getPrice() {
+        return price;
     }
-    
-    
-   
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public Double getScore() {
+        return score;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
+
+    public String getReviewsDesc() {
+        return reviewsDesc;
+    }
+
+    public void setReviewsDesc(String reviewsDesc) {
+        this.reviewsDesc = reviewsDesc;
+    }
+ 
 }

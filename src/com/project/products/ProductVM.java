@@ -17,14 +17,28 @@ public class ProductVM {
     
     private final String category;
     
-    public ProductVM(String remoteId, String name, String category){
+    private final String price;
+    
+    private final String params;
+    
+    public ProductVM(String remoteId, String name, String category, String params, String price ){
         this.remoteId = remoteId;
         this.name = name;
         this.category = category;
+        this.params = params;
+        this.price = price;
     }
     
     public String getRmoteId(){
         return remoteId;
+    }
+    
+    public String getParams(){
+        return params;
+    }
+    
+    public String getPrice(){
+        return price;
     }
     
     public String getName(){

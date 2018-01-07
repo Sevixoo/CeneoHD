@@ -16,6 +16,13 @@ import java.util.List;
 import java.util.UUID;
 import javax.xml.parsers.DocumentBuilder;
 
+import java.io.*;
+import java.util.*; 
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.jsoup.Jsoup; 
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 /**
  *
  * @author seweryn
@@ -31,19 +38,64 @@ class ProductProvider implements IProductProvider{
     public List<ProductDTO> getProducts(String searchQuery) throws ProviderException{ 
         
        try{
-        
-            String response = webClientService.get(
-                    "https://www.ceneo.pl/;szukaj-"+ 
-                    URLEncoder.encode(searchQuery, "UTF-8") 
-            );
-
-
-
-            List<ProductDTO> data = new ArrayList<>();
-            data.add(new ProductDTO(UUID.randomUUID().toString()));
-            return data; 
+         
+           Document doc = Jsoup.connect(  
+                   "https://www.ceneo.pl/;szukaj-"+ 
+                    URLEncoder.encode(searchQuery, "UTF-8" ) 
+           ).get();
+            
+           List<ProductDTO> data = new ArrayList<>();
+           
+           Elements rows = doc.select(".category-list-body .cat-prod-row-body");
+           for (Element row : rows) { 
+                Element nameElement = row.selectFirst(".cat-prod-row-name a");
+                Element categoryElement = row.selectFirst(".cat-prod-row-category a");
+                Element scoreElement = row.selectFirst(".product-score");
+                Element reviewsElement = row.selectFirst(".product-reviews-link"); 
+                Element amountElement = row.selectFirst(".price"); 
+                Elements params = row.select(".prod-params li");
+               
+                String remoteId = nameElement
+                        .attr("href")
+                        .split("#")[0].substring(1);
+                
+                ProductDTO productDTO = new ProductDTO(remoteId); 
+                productDTO.setName(nameElement.text());
+                
+                if(categoryElement != null){
+                    productDTO.setCategory(categoryElement.text());
+                } 
+                
+                if(scoreElement != null){
+                    productDTO.setScore(Double.parseDouble(
+                            scoreElement.text().split(" ")[0].replace(",", ".")
+                    ));
+                } 
+                
+                if(reviewsElement != null){
+                    productDTO.setReviewsDesc(reviewsElement.text());
+                }
+                
+                if(amountElement != null){
+                    productDTO.setPrice(amountElement.text());
+                }
+                 
+                if(params != null && !params.isEmpty()){
+                    StringBuilder paramsBuilder = new StringBuilder();
+                    for(Element param : params){
+                       paramsBuilder.append(param.text());
+                       paramsBuilder.append("\n");
+                    } 
+                    productDTO.setParams(paramsBuilder.toString());
+                } 
+                
+                data.add(productDTO);
+                
+           } 
+           return data; 
             
         }catch(Exception e){
+            e.printStackTrace();
             throw new ProviderException(e.getMessage());
         }
     }
@@ -53,7 +105,7 @@ class ProductProvider implements IProductProvider{
         // wywołać http get, użyć DOMParser do zbudowania listy ocen i parametrów produktu.
         List<ReviewDTO> reviews = new ArrayList<>();
         for(int i = 0 ; i < 24; i++)reviews.add(new ReviewDTO(productId + "review:" + i));
-        return new ProductDTO(productId, reviews); 
+        return new ProductDTO(productId); 
 
 
     }

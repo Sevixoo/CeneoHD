@@ -233,8 +233,10 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
            for( ProductDTO dto : data ){
                products.add(new ProductVM(
                        dto.getRemoteId(), 
-                       "name", 
-                       "aaaa"
+                       dto.getName(), 
+                       dto.getCategory(),
+                       dto.getParams().replace("\n", " "),
+                       dto.getPrice()
                ));
            }
            displayProductsList(products);
