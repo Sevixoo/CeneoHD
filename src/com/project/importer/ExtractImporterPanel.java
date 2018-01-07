@@ -59,7 +59,7 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
         searchProductTableModel = new SearchProductTableModel((product) -> {
             jTextFieldProductId.setText(product.getRmoteId());
         });
-        jTableProducts.setModel(searchProductTableModel);  
+        jTableProducts.setModel(searchProductTableModel); 
     }
 
     public void setParentListener(Listener parentListener){

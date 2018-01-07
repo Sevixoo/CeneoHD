@@ -43,6 +43,7 @@ public class LoadImporterPanel extends javax.swing.JPanel {
     
     public void displayProduct( ProductEntity productEntity ){
         this.productEntity = productEntity;
+        jLabel1.setText("Reviews to save: " + productEntity.getReviews().size());
     }
     
     public void setParentListener( Listener parentListener ){
@@ -59,6 +60,8 @@ public class LoadImporterPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jButtonFinish = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         jButtonFinish.setText("finish");
         jButtonFinish.addActionListener(new java.awt.event.ActionListener() {
@@ -67,19 +70,34 @@ public class LoadImporterPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setText("Reviews to add: 133");
+
+        jLabel2.setText("Load product to data warehouse");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(314, Short.MAX_VALUE)
-                .addComponent(jButtonFinish)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 308, Short.MAX_VALUE)
+                        .addComponent(jButtonFinish))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(265, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(9, 9, 9)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 224, Short.MAX_VALUE)
                 .addComponent(jButtonFinish)
                 .addContainerGap())
         );
@@ -98,5 +116,7 @@ public class LoadImporterPanel extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonFinish;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

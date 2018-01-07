@@ -28,7 +28,7 @@ public class ReviewEntity {
     @DatabaseField(foreign = true)
     private ProductEntity productEntity;
     
-    public ReviewEntity( ) { }
+    public ReviewEntity( ) {  }
     
     public ReviewEntity( String remoteId /* więcej parametrów */ ) {
         this.id = null;

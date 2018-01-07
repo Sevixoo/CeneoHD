@@ -47,6 +47,7 @@ public class TransformImporterPanel extends javax.swing.JPanel {
 
     public void displayProduct( ProductDTO dto ){
         this.productDto = dto;
+        jLabel1.setText( "Found reviews: " + dto.getReviews().size() );
     }
     
     /**
@@ -59,6 +60,8 @@ public class TransformImporterPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jButtonNext = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         jButtonNext.setText("next");
         jButtonNext.addActionListener(new java.awt.event.ActionListener() {
@@ -67,19 +70,35 @@ public class TransformImporterPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setText("Found reviews: 232");
+        jLabel1.setToolTipText("");
+
+        jLabel2.setText("Transform product");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(319, Short.MAX_VALUE)
-                .addComponent(jButtonNext)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 313, Short.MAX_VALUE)
+                        .addComponent(jButtonNext))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(265, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 227, Short.MAX_VALUE)
                 .addComponent(jButtonNext)
                 .addContainerGap())
         );
@@ -97,5 +116,7 @@ public class TransformImporterPanel extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonNext;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

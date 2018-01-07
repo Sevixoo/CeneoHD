@@ -11,6 +11,7 @@ import com.project.data.IORMLiteDataBase;
 import com.project.data.IProductRepository;
 import com.project.entity.ProductEntity;
 import com.project.entity.ReviewEntity;
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -33,10 +34,29 @@ class ProductRepository implements IProductRepository{
     }
     
     @Override
-    public void saveProduct(ProductEntity productEntity){
-         //TODO... zapisanie productu jeśli nie istnieje. 
-         //zapisanie wszystkich opini które zawiera.
-         //jeśli product istnieje. DatabaseException
+    public void saveProduct(ProductEntity productEntity){ 
+        
+        ProductEntity product = productDAO.load(productEntity.getRemoteId());
+        if( product == null ){ 
+            product = productEntity;
+            productDAO.save(product);
+        }else{
+            productEntity.setId(product.getId());
+            productDAO.save(productEntity);
+            product = productEntity;
+        } 
+        
+        if(productEntity.getReviews() != null){
+            for(ReviewEntity reviewEntity : productEntity.getReviews()){
+                ReviewEntity review = reviewDAO.load(reviewEntity.getRemoteId());
+                if(review == null){
+                    review = reviewEntity;
+                } 
+                review.setProduct(product);  
+                reviewDAO.save(review); 
+            }
+        }
+           
     }
        
     @Override
@@ -46,8 +66,13 @@ class ProductRepository implements IProductRepository{
     
     @Override
     public List<ReviewEntity> loadReviews(String productId){
-        //TODO... loadporducts where productId 
-        return null;
+        try {
+            return reviewDAO.queryBuilder().where()
+                    .eq("productEntity_id",productDAO.load(productId).getId())
+                    .query();
+        }catch (SQLException ex){
+            throw  new DatabaseException(ex);
+        }
     }
     
     @Override

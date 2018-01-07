@@ -9,6 +9,7 @@ import com.project.CeneoHDApplication;
 import com.project.application.InitializeApplicationUseCase;
 import com.project.application.LoadProductsUseCase;
 import com.project.base.UseCaseExecutor;
+import com.project.entity.ProductEntity;
 import com.project.exporter.ExporterForm;
 import com.project.importer.ImporterForm;
 import com.project.products.JTableButtonMouseListener;
@@ -169,9 +170,13 @@ public class DashboardForm extends javax.swing.JFrame implements ProductsTableMo
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         executor.execute(loadProductsUseCase, null, (result) -> {
             List<ProductVM> productsVM = new ArrayList<>();
-            productsVM.add(new ProductVM("aaa", "aaa", "aaaa"));
-            productsVM.add(new ProductVM("bbb", "bbb", "bbbb"));
-            productsVM.add(new ProductVM("ccc", "ccc", "cccc")); 
+            for(ProductEntity entity : result){
+                productsVM.add(new ProductVM(
+                        entity.getRemoteId(), 
+                        entity.getRemoteId(), 
+                        "aaaa"
+                ));
+            } 
             productsTableModel.setData(productsVM);
             
             TableCellRenderer buttonRenderer = new JTableButtonRenderer();

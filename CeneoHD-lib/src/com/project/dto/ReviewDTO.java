@@ -17,6 +17,10 @@ public class ReviewDTO {
     
     public ReviewDTO(){ }
     
+    public ReviewDTO(String remoteId){ 
+        this.remoteId = remoteId;
+    }
+    
     public String getRemoteId(){
         return this.remoteId;
     }

@@ -20,8 +20,8 @@ public class ImporterForm extends javax.swing.JFrame implements
         LoadImporterPanel.Listener {
 
     final static String EXTRACT_PANEL = "EXTRACT_PANEL";
-    final static String TRANSFORM_PANEL = "TRANSFORM_PANEL";
-    final static String LOAD_PANEL = "LOAD_PANEL";
+    final static String TRANSFORM_PANEL = "card4";
+    final static String LOAD_PANEL = "card5";
     
     
     private final CardLayout cardLayout;
@@ -54,8 +54,8 @@ public class ImporterForm extends javax.swing.JFrame implements
         jPanel1 = new javax.swing.JPanel();
         jPanelContent = new javax.swing.JPanel();
         extractImporterPanel = new com.project.importer.ExtractImporterPanel();
-        loadImporterPanel = new com.project.importer.LoadImporterPanel();
         transformImporterPanel = new com.project.importer.TransformImporterPanel();
+        loadImporterPanel = new com.project.importer.LoadImporterPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setSize(new java.awt.Dimension(600, 400));
@@ -74,32 +74,8 @@ public class ImporterForm extends javax.swing.JFrame implements
 
         jPanelContent.setLayout(new java.awt.CardLayout());
         jPanelContent.add(extractImporterPanel, "EXTRACT_PANEL");
-
-        javax.swing.GroupLayout loadImporterPanelLayout = new javax.swing.GroupLayout(loadImporterPanel);
-        loadImporterPanel.setLayout(loadImporterPanelLayout);
-        loadImporterPanelLayout.setHorizontalGroup(
-            loadImporterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 578, Short.MAX_VALUE)
-        );
-        loadImporterPanelLayout.setVerticalGroup(
-            loadImporterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
-        jPanelContent.add(loadImporterPanel, "LOAD_PANEL");
-
-        javax.swing.GroupLayout transformImporterPanelLayout = new javax.swing.GroupLayout(transformImporterPanel);
-        transformImporterPanel.setLayout(transformImporterPanelLayout);
-        transformImporterPanelLayout.setHorizontalGroup(
-            transformImporterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 578, Short.MAX_VALUE)
-        );
-        transformImporterPanelLayout.setVerticalGroup(
-            transformImporterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
-        jPanelContent.add(transformImporterPanel, "TRANSFORM_PANEL");
+        jPanelContent.add(transformImporterPanel, "card4");
+        jPanelContent.add(loadImporterPanel, "card5");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -115,11 +91,10 @@ public class ImporterForm extends javax.swing.JFrame implements
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35)
-                .addComponent(jPanelContent, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanelContent, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();

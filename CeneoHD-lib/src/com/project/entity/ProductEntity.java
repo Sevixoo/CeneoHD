@@ -52,5 +52,9 @@ public class ProductEntity {
     public Collection<ReviewEntity> getReviews() {
         return reviews;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
     
 }

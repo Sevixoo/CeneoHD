@@ -8,6 +8,7 @@ package com.project.reviews;
 import com.project.CeneoHDApplication;
 import com.project.application.LoadReviewsUseCase;
 import com.project.base.UseCaseExecutor;
+import com.project.entity.ReviewEntity;
 import com.project.products.ProductVM;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
@@ -96,12 +97,9 @@ public class ReviewsForm extends javax.swing.JFrame {
         useCaseExecutor.execute(loadReviewsUseCase, productViewModel.getRmoteId(),
                 result -> {
                     List<ReviewVM> data = new ArrayList<>();
-                    data.add(new ReviewVM("aaa", "aaaa"));
-                    data.add(new ReviewVM("bbb", "bbbb"));
-                    data.add(new ReviewVM("ccc", "cccc"));
-                    data.add(new ReviewVM("aaa", "aaaa"));
-                    data.add(new ReviewVM("bbb", "bbbb"));
-                    data.add(new ReviewVM("ccc", "cccc"));
+                    for(ReviewEntity reviewEntity : result){
+                        data.add(new ReviewVM(reviewEntity.getRemoteId(), "bbbb"));
+                    }
                     reviewsTableModel.setData(data);
                 },ex -> {
                     displayException(ex);
