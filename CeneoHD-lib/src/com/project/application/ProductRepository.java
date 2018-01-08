@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.project.impl;
+package com.project.application;
 
 import com.project.data.DAO;
 import com.project.data.DatabaseException;

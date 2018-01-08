@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.project.impl;
+package com.project.application;
 
 import com.project.entity.ReviewEntity;
 import com.project.service.IExporterService;
@@ -15,9 +15,9 @@ import java.util.List;
  *
  * @author seweryn
  */
-class CSVExporterService implements IExporterService{
+class TxTExporterService implements IExporterService{
     
-    public CSVExporterService(){ }
+    public TxTExporterService(){ }
      
     @Override
     public void exportData( File file, List<ReviewEntity> reviews )throws IOException{

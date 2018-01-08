@@ -20,9 +20,15 @@ public class ReviewsTableModel extends AbstractTableModel {
 
     private final List<ReviewVM> dataList;
      
-    String[] columnNames = {"Review text","Remote id"};
+    String[] columnNames = { 
+        "Remote id", "Author", "Recomended" , "Score", 
+        "Body" , "Pros" , "Cons" , "Yes/No" , "Date"
+    };
     
-    private static final Class<?>[] COLUMN_TYPES = new Class<?>[] {String.class, String.class};
+    private static final Class<?>[] COLUMN_TYPES = new Class<?>[] {
+        String.class, String.class,String.class, String.class,
+        String.class, String.class,String.class, String.class, String.class
+    };
     
     public ReviewsTableModel(){
         this.dataList = new ArrayList<>();
@@ -48,9 +54,23 @@ public class ReviewsTableModel extends AbstractTableModel {
         ReviewVM reviewVM = dataList.get(row);
         switch(col){
             
-            case 0: return reviewVM.getName();
+            case 0: return reviewVM.getRemoteId();
             
-            case 1: return reviewVM.getRmoteId();
+            case 1: return reviewVM.getAuthor();
+            
+            case 2: return reviewVM.getRecomended();
+            
+            case 3: return reviewVM.getScore();
+            
+            case 4: return reviewVM.getBody();
+            
+            case 5: return reviewVM.getPros();
+            
+            case 6: return reviewVM.getCons();
+            
+            case 7: return reviewVM.getVotes();
+            
+            case 8: return reviewVM.getDate();
             
         };
         return null;

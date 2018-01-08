@@ -8,13 +8,15 @@ package com.project.application;
 import com.project.base.UseCase;
 import com.project.provider.IProductProvider;
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
+import com.project.dto.ReviewDTO;
 import java.util.List;
 
 /**
  *
  * @author seweryn
  */
-public class ExtractProductUseCase implements UseCase<String,ProductDTO>{
+public class ExtractProductUseCase implements UseCase<String,ProductReviewsDTO>{
     
     private final IProductProvider productProvider;
     
@@ -23,8 +25,10 @@ public class ExtractProductUseCase implements UseCase<String,ProductDTO>{
     }
     
     @Override
-    public ProductDTO execute(String request) throws Throwable{
-        return productProvider.getReviews(request);
+    public ProductReviewsDTO execute(String request) throws Throwable{
+        ProductDTO product = productProvider.getProduct(request);
+        List<ReviewDTO> reviews = productProvider.getReviews(request);
+        return new ProductReviewsDTO(product, reviews);
     }
     
 }

@@ -6,6 +6,7 @@
 package com.project.importer;
 
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
 import com.project.entity.ProductEntity;
 import java.awt.CardLayout;
 import java.awt.event.WindowEvent;
@@ -111,7 +112,7 @@ public class ImporterForm extends javax.swing.JFrame implements
     }
      
     @Override
-    public void onExtractSuccess( ProductDTO productDTO ){
+    public void onExtractSuccess( ProductReviewsDTO productDTO ){
         transformImporterPanel.displayProduct(productDTO);
         displayPanel(TRANSFORM_PANEL);
     }

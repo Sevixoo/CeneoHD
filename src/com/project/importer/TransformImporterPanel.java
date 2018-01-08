@@ -9,6 +9,7 @@ import com.project.CeneoHDApplication;
 import com.project.application.TransformProductUseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
 import com.project.entity.ProductEntity;
 
 /**
@@ -31,7 +32,7 @@ public class TransformImporterPanel extends javax.swing.JPanel {
     
     private Listener parentListener;
     
-    private ProductDTO productDto;
+    private ProductReviewsDTO productDto;
     /**
      * Creates new form TransformImporterPanel
      */
@@ -45,7 +46,7 @@ public class TransformImporterPanel extends javax.swing.JPanel {
         this.parentListener = parentListener; 
     }
 
-    public void displayProduct( ProductDTO dto ){
+    public void displayProduct( ProductReviewsDTO dto ){
         this.productDto = dto;
         jLabel1.setText( "Found reviews: " + dto.getReviews().size() );
     }

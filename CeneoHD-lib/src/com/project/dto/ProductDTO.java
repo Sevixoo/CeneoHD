@@ -27,9 +27,7 @@ public class ProductDTO {
     private Double score;
     
     private String reviewsDesc;
-    
-    private Collection<ReviewDTO> reviews;
-    
+     
     public ProductDTO(){ }
     
     public ProductDTO(String remoteId){ 
@@ -43,15 +41,7 @@ public class ProductDTO {
     public void setRemoteId(String remoteId){
         this.remoteId = remoteId;
     }
-    
-    public Collection<ReviewDTO> getReviews(){
-        return this.reviews;
-    }
-    
-    public void setReviews(Collection<ReviewDTO> reviews){
-        this.reviews = reviews;
-    }
-
+     
     public String getCategory() {
         return category;
     }

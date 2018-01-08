@@ -98,7 +98,18 @@ public class ReviewsForm extends javax.swing.JFrame {
                 result -> {
                     List<ReviewVM> data = new ArrayList<>();
                     for(ReviewEntity reviewEntity : result){
-                        data.add(new ReviewVM(reviewEntity.getRemoteId(), "bbbb"));
+                        data.add(new ReviewVM(
+                                reviewEntity.getRemoteId(), 
+                                reviewEntity.getAuthor(),
+                                reviewEntity.getIsRecomended(),
+                                reviewEntity.getScore(),
+                                reviewEntity.getSummary(),
+                                reviewEntity.getAdvantages(),
+                                reviewEntity.getDisadvantages(),
+                                reviewEntity.getLikesCount(),
+                                reviewEntity.getDislikesCount(),
+                                reviewEntity.getCreateDate() 
+                        ));
                     }
                     reviewsTableModel.setData(data);
                 },ex -> {

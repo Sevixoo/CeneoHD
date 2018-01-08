@@ -2,7 +2,7 @@
 package com.project;
 
 import com.project.dashboard.DashboardForm;
-import com.project.impl.CeneoHDComponent;
+import com.project.application.CeneoHDComponent;
 import com.project.splash.SplashForm;
 import javax.swing.JFrame;
 

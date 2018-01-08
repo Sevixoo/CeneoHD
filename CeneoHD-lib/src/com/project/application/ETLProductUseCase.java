@@ -9,6 +9,7 @@ import com.project.base.UseCase;
 import com.project.data.IProductRepository;
 import com.project.entity.ProductEntity;
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class ETLProductUseCase implements UseCase<String,Void>{
     
     @Override
     public Void execute(String productId) throws Throwable{
-         ProductDTO productDTO = extractProductUseCase.execute(productId);
+         ProductReviewsDTO productDTO = extractProductUseCase.execute(productId);
          ProductEntity productEntity = transformProductUseCase.execute(productDTO);
          return saveProductUseCase.execute(productEntity);
     }

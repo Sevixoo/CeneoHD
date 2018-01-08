@@ -11,6 +11,7 @@ import com.project.application.ExtractProductUseCase;
 import com.project.application.SearchProductsUseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
 import com.project.products.JTableButtonMouseListener;
 import com.project.products.JTableButtonRenderer;
 import com.project.products.ProductVM;
@@ -29,7 +30,7 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
         
         void displayException(Throwable ex);
         
-        void onExtractSuccess( ProductDTO productDTO );
+        void onExtractSuccess( ProductReviewsDTO productDTO );
         
         void onLoadSuccess();
         
@@ -143,7 +144,7 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
                         .addComponent(jTextFieldSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButtonSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 463, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -201,7 +202,7 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButtonNext)
                     .addComponent(jButtonFinish))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

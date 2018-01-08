@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.project.impl;
+package com.project.application;
 
 import com.project.data.IORMLiteDataBase;
 import com.project.data.IORMLiteDataBaseService;
@@ -16,7 +16,7 @@ import java.io.File;
 class ORMLiteDataBaseService implements IORMLiteDataBaseService {
 
     private static String TAG = ORMLiteDataBaseService.class.getName();
-    private static final int DB_VERSION = 5;
+    private static final int DB_VERSION = 6;
 
     private final String PATH_TO_DATABASE = "./";
 

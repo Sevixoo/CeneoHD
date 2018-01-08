@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.project.impl;
+package com.project.application;
 
 import com.project.application.ClearDatabaseUseCase;
 import com.project.application.ETLProductUseCase;
@@ -39,7 +39,7 @@ public class CeneoHDComponent {
         this.dataBaseService = new ORMLiteDataBaseService();
     }
      
-    public final UseCaseExecutor provideUseCaseExecutor(){
+    public UseCaseExecutor provideUseCaseExecutor(){
         return useCaseExecutor;
     }
     

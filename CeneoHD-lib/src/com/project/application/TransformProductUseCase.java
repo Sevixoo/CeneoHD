@@ -9,6 +9,7 @@ import com.project.base.UseCase;
 import com.project.entity.ProductEntity;
 import com.project.entity.ReviewEntity;
 import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,12 +17,15 @@ import java.util.stream.Collectors;
  *
  * @author seweryn
  */
-public class TransformProductUseCase implements UseCase<ProductDTO,ProductEntity>{
+public class TransformProductUseCase implements UseCase<ProductReviewsDTO,ProductEntity>{
     
     public TransformProductUseCase(){ }
     
     @Override
-    public ProductEntity execute(ProductDTO productDto) throws Throwable{
+    public ProductEntity execute(ProductReviewsDTO productReviewsDto) throws Throwable{
+        
+        ProductDTO productDto = productReviewsDto.getProduct();
+        
         ProductEntity productEntity = new ProductEntity(
                 productDto.getRemoteId(),
                 productDto.getCategory(),
@@ -31,10 +35,20 @@ public class TransformProductUseCase implements UseCase<ProductDTO,ProductEntity
                 productDto.getScore(),
                 productDto.getReviewsDesc()
         );
-        List<ReviewEntity> reviewEntities = productDto.getReviews().stream().map((reviewDto) -> {
+        
+        List<ReviewEntity> reviewEntities = productReviewsDto.getReviews().stream().map((reviewDto) -> {
             ReviewEntity reviewEntity = new ReviewEntity(
-                    reviewDto.getRemoteId()
-                    //TODO... implementacja mapowania DTO -> Entity
+                    reviewDto.getRemoteId(),
+                    reviewDto.getAdvantages(),
+                    reviewDto.getDisadvantages(),
+                    reviewDto.getSummary(),
+                    reviewDto.getScore(),
+                    reviewDto.getAuthor(),
+                    reviewDto.getCreateDate(),
+                    reviewDto.getIsRecomended(),
+                    reviewDto.getLikesCount(),
+                    reviewDto.getDislikesCount()
+                    
             );
             reviewEntity.setProduct(productEntity);
             return reviewEntity;
