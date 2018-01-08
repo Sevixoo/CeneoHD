@@ -1,0 +1,10 @@
+ID:4507849
+AUTHOR:Henryk
+Score:5/5
+IsRecomended:true
+Summary:Spełnia oczekiwania.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-21 10:43:10

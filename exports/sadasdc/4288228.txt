@@ -1,0 +1,10 @@
+ID:4288228
+AUTHOR:Dudi
+Score:4/5
+IsRecomended:true
+Summary::D gitara siema
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-12-15 12:57:55

@@ -1,0 +1,10 @@
+ID:4492818
+AUTHOR:Technosystem
+Score:5/5
+IsRecomended:true
+Summary:Szczerze polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-14 14:31:54

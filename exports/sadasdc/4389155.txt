@@ -1,0 +1,10 @@
+ID:4389155
+AUTHOR:sui
+Score:5/5
+IsRecomended:true
+Summary:super sprzet i extra gratisy
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-01-30 17:25:26

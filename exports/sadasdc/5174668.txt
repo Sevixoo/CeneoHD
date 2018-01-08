@@ -1,0 +1,10 @@
+ID:5174668
+AUTHOR:Anna
+Score:3,5/5
+IsRecomended:null
+Summary:Dobry wybór na telefon w akceptowalnej cenie
+Advantages:czas pracy na baterii funkcjonalność latwosc obslugi stabilność 
+Disadvantages:czasami się zawiesza na kilka sekund 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-10-31 14:17:16

@@ -1,0 +1,10 @@
+ID:4293880
+AUTHOR:captain1999
+Score:5/5
+IsRecomended:true
+Summary:Jeden z najlepszych telefonów na rynku. BA MEGA KOMPUTERÓW. Jest to istny potwór wydajnościowy, bardzo ładny i elegancki oraz niezawodny.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-18 13:24:48

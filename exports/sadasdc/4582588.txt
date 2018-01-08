@@ -1,0 +1,10 @@
+ID:4582588
+AUTHOR:Tomek
+Score:5/5
+IsRecomended:true
+Summary:Telefon spełnia moje oczekiwania. Polecam.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-19 10:53:24

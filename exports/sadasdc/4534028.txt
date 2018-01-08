@@ -1,0 +1,10 @@
+ID:4534028
+AUTHOR:Jarek
+Score:5/5
+IsRecomended:true
+Summary:Jestem zadowolony z zakupu. Świetna praca z Internetem. Wystarczający wyświetlacz. Bateria sprawuje się jak na razie ok'. Oceniam model bardzo dobrze.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2017-03-30 15:34:27

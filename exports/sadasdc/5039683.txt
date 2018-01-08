@@ -1,0 +1,10 @@
+ID:5039683
+AUTHOR:Igor
+Score:5/5
+IsRecomended:true
+Summary:Telefon jest w bardzo dobrej cenie, oryginalny. Super funkcjonalny, polecam!
+Advantages:funkcjonalność latwosc obslugi stabilność wygląd 
+Disadvantages:cena idiotycznie wysoka czasami się zawiesza na kilka sekund mało odporny na upadek i uderzenia 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-09-14 16:24:22

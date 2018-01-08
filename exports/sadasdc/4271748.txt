@@ -1,0 +1,10 @@
+ID:4271748
+AUTHOR:Krzysztof
+Score:5/5
+IsRecomended:true
+Summary:Jest dobrze. Działa płynnie i się nie przycina. Świetny aparat. Zdjęcia robione przy bardzo słabym oświetleniu wychodzą ślicznie.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-09 07:57:21

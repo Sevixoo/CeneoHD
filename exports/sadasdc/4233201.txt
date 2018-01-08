@@ -1,0 +1,10 @@
+ID:4233201
+AUTHOR:Grzegorz
+Score:5/5
+IsRecomended:true
+Summary:Niezły sprzęt, ale za drogi.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-25 11:47:21

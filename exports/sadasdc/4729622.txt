@@ -1,0 +1,10 @@
+ID:4729622
+AUTHOR:Wojciech
+Score:5/5
+IsRecomended:true
+Summary:Super telefon, jedyne do czego można się przyczepić, to czytnik linii papilarnych, ale i tak praktycznie z niego nie korzystam :)
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-05 13:53:04

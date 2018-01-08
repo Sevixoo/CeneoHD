@@ -1,0 +1,10 @@
+ID:3757238
+AUTHOR:Jan
+Score:4,5/5
+IsRecomended:true
+Summary:Dużą wadą S7 jest śliska obudowa i do tego jeszcze z zaokrąglonymi krawędziami. Przy stosunkowo dużej wadze telefonu bardzo łatwo o jego wypuszczenie z dłoni lub ześlizgnięcie się z pochyłej powierzchni. Kolejną wadą jest brak radia fm. Ale podobno w kolejnych aktualizacjach systemu już ma być. Poza tym S7 ma wiele zalet, do których jednak zaliczyć należy baterię (trzeba od razu nad nią trochę popracować aplikacją "Repair Battery Life" - efekt murowany!), no i oczywiście aparat. Tylko dlaczego filmy nie chce zapisywać na karcie SD? .
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:5
+DislikesCount:0
+CreateDate:2016-05-24 10:18:35

@@ -1,0 +1,10 @@
+ID:4756065
+AUTHOR:Wojtek
+Score:4,5/5
+IsRecomended:true
+Summary:Bardzo fajny telefon z dobrym aparatem i dużą pamięcią. Telefon na przyszłość. Wada jak w tego typu sprzęcie to bateria
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-13 17:11:24

@@ -1,0 +1,10 @@
+ID:6221855
+AUTHOR:Katarzyna
+Score:3,5/5
+IsRecomended:null
+Summary:ładny wygląd dobrze się trzyma w dłoni ,robi cudowne fotki dla mnie idealmy
+Advantages:
+Disadvantages:czas pracy na baterii funkcjonalność wygląd 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-17 09:20:30

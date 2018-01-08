@@ -1,0 +1,10 @@
+ID:3873788
+AUTHOR:Szymon
+Score:5/5
+IsRecomended:true
+Summary:ok
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-08-10 09:26:37

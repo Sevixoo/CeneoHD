@@ -1,0 +1,10 @@
+ID:3810017
+AUTHOR:tomekmini
+Score:5/5
+IsRecomended:true
+Summary:super aparat i szybkość działania.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-07-05 11:15:29

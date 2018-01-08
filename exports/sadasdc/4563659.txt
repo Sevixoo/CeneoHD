@@ -1,0 +1,10 @@
+ID:4563659
+AUTHOR:Kris
+Score:5/5
+IsRecomended:true
+Summary:Drugi taki telefon w rodzinie. Nawet nie szukałem czegoś innego.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-12 11:22:06

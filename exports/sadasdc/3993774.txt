@@ -1,0 +1,10 @@
+ID:3993774
+AUTHOR:Włodek
+Score:4/5
+IsRecomended:true
+Summary:ok
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:1
+CreateDate:2016-09-29 13:02:40

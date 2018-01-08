@@ -1,0 +1,10 @@
+ID:4260544
+AUTHOR:kamilooo
+Score:4,5/5
+IsRecomended:true
+Summary:Co tu mówić po prostu rewelacja.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-05 20:15:28

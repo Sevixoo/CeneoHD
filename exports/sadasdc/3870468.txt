@@ -1,0 +1,10 @@
+ID:3870468
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:Znakomity produkt w .bardzo dobrej cenie, zdecydowanie polecam wszystkim zainteresowanym. Naprawdę warto
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2016-08-08 20:17:50

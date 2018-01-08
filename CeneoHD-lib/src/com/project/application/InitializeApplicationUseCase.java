@@ -13,11 +13,11 @@ import java.io.IOException;
  *
  * @author seweryn
  */
-public class InitializeApplicationUseCase implements UseCase<Void, Void>{
+class InitializeApplicationUseCase implements UseCase<Void, Void>{
     
     private IORMLiteDataBaseService dataBaseService;
     
-    public InitializeApplicationUseCase(IORMLiteDataBaseService dataBaseService){ 
+    InitializeApplicationUseCase(IORMLiteDataBaseService dataBaseService){ 
         this.dataBaseService = dataBaseService;
     }
     

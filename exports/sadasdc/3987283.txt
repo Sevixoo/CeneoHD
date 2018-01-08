@@ -1,0 +1,10 @@
+ID:3987283
+AUTHOR:tomek
+Score:4/5
+IsRecomended:true
+Summary:fajne urządzenie ale jakbym miał s4 to bym nie zmieniał. Bateria sprawia , ze zapominam o tym ,ze muszę ładować telefon .
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-09-27 12:41:58

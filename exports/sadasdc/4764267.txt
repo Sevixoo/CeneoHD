@@ -1,0 +1,10 @@
+ID:4764267
+AUTHOR:Andy
+Score:5/5
+IsRecomended:true
+Summary:Świetny telefon.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-16 13:37:27

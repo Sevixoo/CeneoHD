@@ -1,0 +1,10 @@
+ID:4297194
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:nie wybucha
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-12-19 17:26:35

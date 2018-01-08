@@ -1,0 +1,10 @@
+ID:4233473
+AUTHOR:tk
+Score:5/5
+IsRecomended:true
+Summary:Świetnie działa i wygląda
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-25 14:32:07

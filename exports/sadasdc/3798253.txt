@@ -1,0 +1,10 @@
+ID:3798253
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Najlepszy smartfon tego roku.
+Advantages:
+Disadvantages:
+LikesCount:7
+DislikesCount:9
+CreateDate:2016-06-26 12:00:47

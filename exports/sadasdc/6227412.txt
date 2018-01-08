@@ -1,0 +1,10 @@
+ID:6227412
+AUTHOR:Smoczyca
+Score:4/5
+IsRecomended:true
+Summary:Ogólnie telefon spoko. Czasem problem z czytnikiem linii papilarnych, wystarczy mały paproch i już nie działa. A bateria mogłaby być trochę lepsza. Jak na swoją cene zasługuje na 4*
+Advantages:funkcjonalność wygląd 
+Disadvantages:czas pracy na baterii 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-18 22:36:11

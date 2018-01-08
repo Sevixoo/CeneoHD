@@ -5,7 +5,7 @@
  */
 package com.project.provider;
 
-import com.project.provider.ProviderException;
+import com.project.base.ProviderException;
 
 /**
  *

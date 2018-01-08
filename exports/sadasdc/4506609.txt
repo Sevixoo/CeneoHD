@@ -1,0 +1,10 @@
+ID:4506609
+AUTHOR:elzbieta
+Score:5/5
+IsRecomended:true
+Summary:jestem zadowolona z zakupu telefonu polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-20 18:24:06

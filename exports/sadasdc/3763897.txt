@@ -1,0 +1,10 @@
+ID:3763897
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:ok
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:8
+CreateDate:2016-05-30 10:14:08

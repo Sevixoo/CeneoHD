@@ -1,0 +1,10 @@
+ID:4278812
+AUTHOR:Ambasador marki Samsung
+Score:5/5
+IsRecomended:true
+Summary:Samsung Galaxy S7, to telefon dla najbardziej wymagających. Jest wyposażony w wysokiej klasy aparat, którym spokojnie można zastąpić kompakt. Wykonamy nim zdjęcia wysokiej jakości w każdych warunkach oświetleniowych. Wysokiej jakości materiały z jakich został wykonany telefon sprawiają, że jest bardzo odporny na uszkodzenia. Dodatkową zaletą jest to, że smartfon jest wodoszczelny
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-11 20:39:23

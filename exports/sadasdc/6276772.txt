@@ -1,0 +1,10 @@
+ID:6276772
+AUTHOR:Mariusz
+Score:4/5
+IsRecomended:true
+Summary:Telefon ogólnie super. Jednak jakość dźwięku z jednego głośnika oraz słuchawek (które ma się wrażenie że zaraz wypadną z uszu i są jakieś takie niedopasowane)jest kiepska jak na telefon tej klasy.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-30 19:59:53

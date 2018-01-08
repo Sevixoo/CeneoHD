@@ -6,7 +6,7 @@
 package com.project.application;
 
 import com.project.provider.IWebClientService;
-import com.project.provider.ProviderException;  
+import com.project.base.ProviderException;  
 import java.io.IOException;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -21,7 +21,7 @@ class WebClientService implements IWebClientService{
     
     private OkHttpClient okHttpClient;
     
-    public WebClientService(){ 
+    WebClientService(){ 
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BASIC);
         okHttpClient = new OkHttpClient.Builder()

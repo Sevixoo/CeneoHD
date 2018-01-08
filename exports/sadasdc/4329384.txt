@@ -1,0 +1,10 @@
+ID:4329384
+AUTHOR:BLTS
+Score:3,5/5
+IsRecomended:null
+Summary:można tylko przyczepić się do wygórowanej ceny.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2017-01-04 11:42:50

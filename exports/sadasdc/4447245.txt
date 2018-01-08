@@ -1,0 +1,10 @@
+ID:4447245
+AUTHOR:Użytkownik Ceneo
+Score:4,5/5
+IsRecomended:true
+Summary:Bardzo dobrze wykonany produkt samsunga. Jednak bardzo szkoda że jest tak wielka cena.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-02-21 19:37:24

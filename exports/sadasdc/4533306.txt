@@ -1,0 +1,10 @@
+ID:4533306
+AUTHOR:mluki
+Score:5/5
+IsRecomended:true
+Summary:wszystko dobrze
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-03-30 12:47:27

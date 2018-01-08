@@ -1,0 +1,10 @@
+ID:4309920
+AUTHOR:Łukasz
+Score:5/5
+IsRecomended:true
+Summary:OK.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-26 20:34:36

@@ -61,7 +61,7 @@ class ORMLiteDataBaseService implements IORMLiteDataBaseService {
     
     @Override
     public void clearDatabase(){
-        //TODO... wyczyścić dane
+        ormLiteDatabase.onClearDatabase();
     }
     
 }

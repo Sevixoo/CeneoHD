@@ -1,0 +1,10 @@
+ID:4698058
+AUTHOR:Arak
+Score:5/5
+IsRecomended:true
+Summary:Telefon jak na tą cenę bezkonkurencyjny
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-05-25 10:47:35

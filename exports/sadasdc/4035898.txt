@@ -1,0 +1,10 @@
+ID:4035898
+AUTHOR:Marcin
+Score:5/5
+IsRecomended:true
+Summary:Praca na baterii mogłaby być dłuższa.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-10-11 19:34:27

@@ -1,0 +1,10 @@
+ID:3882340
+AUTHOR:Henryk heniu-b*****
+Score:2/5
+IsRecomended:false
+Summary:wyświetlacz - brak odporności na uderzenia, słaba jakość dźwięku - słaby jak na tak wygórowaną cenę. NIE POLECAM.
+Advantages:
+Disadvantages:funkcjonalność mało odporny na upadek i uderzenia 
+LikesCount:3
+DislikesCount:3
+CreateDate:2016-08-15 09:56:53

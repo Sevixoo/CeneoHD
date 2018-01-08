@@ -1,0 +1,10 @@
+ID:4261889
+AUTHOR:Jarosław
+Score:5/5
+IsRecomended:true
+Summary:Polecam.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-06 10:10:50

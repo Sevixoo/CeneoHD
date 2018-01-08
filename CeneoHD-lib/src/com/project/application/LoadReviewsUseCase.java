@@ -14,11 +14,11 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class LoadReviewsUseCase implements UseCase<String, List<ReviewEntity>>{
+class LoadReviewsUseCase implements UseCase<String, List<ReviewEntity>>{
     
     private final IProductRepository productRepository;
     
-    public LoadReviewsUseCase(IProductRepository productRepository){
+    LoadReviewsUseCase(IProductRepository productRepository){
         this.productRepository = productRepository;
     }
     

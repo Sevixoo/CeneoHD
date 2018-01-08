@@ -5,9 +5,8 @@
  */
 package com.project.dashboard;
 
-import com.project.CeneoHDApplication;
-import com.project.application.InitializeApplicationUseCase;
-import com.project.application.LoadProductsUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.entity.ProductEntity;
 import com.project.exporter.ExporterForm;
@@ -31,19 +30,22 @@ import jdk.nashorn.internal.runtime.RewriteException;
  *
  * @author seweryn
  */
-public class DashboardForm extends javax.swing.JFrame implements ProductsTableModel.OnItemActionClickListener{
+public class DashboardForm extends javax.swing.JFrame implements ProductsTableModel.OnItemActionClickListener, ImporterForm.OnImportSuccessListener{
 
     private final UseCaseExecutor executor;
       
-    private final LoadProductsUseCase loadProductsUseCase;
+    private final UseCase<Void,List<ProductEntity>> loadProductsUseCase;
     
     private final ProductsTableModel productsTableModel;
+    
+    private final UseCase<Void,Void> clearDatabaseUseCase;
     
     
     public DashboardForm() {
         initComponents();
         executor = CeneoHDApplication.get().provideCeneoHDComponent().provideUseCaseExecutor();
         loadProductsUseCase = CeneoHDApplication.get().provideCeneoHDComponent().provideLoadProductsUseCase();
+        clearDatabaseUseCase = CeneoHDApplication.get().provideCeneoHDComponent().provideClearDatabaseUseCase();
         productsTableModel = new ProductsTableModel(this);
         jTable1.setModel(productsTableModel);
     } 
@@ -179,8 +181,7 @@ public class DashboardForm extends javax.swing.JFrame implements ProductsTableMo
                         entity.getPrice()
                 ));
             } 
-            productsTableModel.setData(productsVM);
-            
+            productsTableModel.setData(productsVM); 
             TableCellRenderer buttonRenderer = new JTableButtonRenderer();
             jTable1.getColumn("Action").setCellRenderer(buttonRenderer);
             jTable1.addMouseListener(new JTableButtonMouseListener(jTable1));
@@ -197,11 +198,17 @@ public class DashboardForm extends javax.swing.JFrame implements ProductsTableMo
     }//GEN-LAST:event_jMenuExitActionPerformed
 
     private void jMenuItemImportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemImportActionPerformed
-        CeneoHDApplication.get().openNewForm(new ImporterForm());
+        ImporterForm importerForm = new ImporterForm();
+        importerForm.setOnImportSuccessListener(this);
+        CeneoHDApplication.get().openNewForm(importerForm);
     }//GEN-LAST:event_jMenuItemImportActionPerformed
 
     private void jMenuItemClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemClearActionPerformed
-         
+         executor.execute(clearDatabaseUseCase, null, (result) -> {
+             formWindowOpened(null);
+         }, ex -> {
+             displayException(ex);
+         } );
     }//GEN-LAST:event_jMenuItemClearActionPerformed
 
     private void jMenuItemExportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemExportActionPerformed
@@ -215,6 +222,11 @@ public class DashboardForm extends javax.swing.JFrame implements ProductsTableMo
             ex.getClass().getSimpleName(), 
             JOptionPane.ERROR_MESSAGE); 
         this.processWindowEvent( new WindowEvent( this, WindowEvent.WINDOW_CLOSING));
+    }
+    
+    @Override
+    public void onImportSuccess(){
+        formWindowOpened(null);
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

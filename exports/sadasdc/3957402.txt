@@ -1,0 +1,10 @@
+ID:3957402
+AUTHOR:Seba
+Score:0,5/5
+IsRecomended:false
+Summary:Telefon wybucha ! Grozi poparzeniem, nie polecam!
+Advantages:
+Disadvantages:funkcjonalność 
+LikesCount:2
+DislikesCount:5
+CreateDate:2016-09-16 20:20:34

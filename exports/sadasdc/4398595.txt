@@ -1,0 +1,10 @@
+ID:4398595
+AUTHOR:Aga
+Score:5/5
+IsRecomended:true
+Summary:w 100% zgodny z opisem.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-02-02 11:19:14

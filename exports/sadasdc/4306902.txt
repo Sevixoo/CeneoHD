@@ -1,0 +1,10 @@
+ID:4306902
+AUTHOR:recenzent
+Score:5/5
+IsRecomended:true
+Summary:według mnie jest to jeden z lepszych i ładniejszych telefonów tego roku,także bardzo płynnie działa i mogę go gorąco go polecić
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-24 22:38:39

@@ -1,0 +1,10 @@
+ID:4226454
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Taki jaki miał być. The best!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-22 15:51:46

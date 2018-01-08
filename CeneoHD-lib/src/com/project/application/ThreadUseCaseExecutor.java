@@ -22,7 +22,7 @@ class ThreadUseCaseExecutor implements UseCaseExecutor {
     
    private final ExecutorService executor;
     
-   public ThreadUseCaseExecutor(){ 
+   ThreadUseCaseExecutor(){ 
        executor = Executors.newFixedThreadPool(3);
    }
     

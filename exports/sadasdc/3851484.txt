@@ -1,0 +1,10 @@
+ID:3851484
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:vsda dfdsaf dsaf sdaf
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:2
+CreateDate:2016-07-29 15:39:26

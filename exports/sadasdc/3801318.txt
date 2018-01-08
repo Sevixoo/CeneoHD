@@ -1,0 +1,10 @@
+ID:3801318
+AUTHOR:zibi
+Score:5/5
+IsRecomended:true
+Summary:Przesiadka z S4 DUOS - jak z malucha do mercedesa
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:2
+DislikesCount:2
+CreateDate:2016-06-29 10:15:13

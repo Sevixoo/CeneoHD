@@ -1,0 +1,10 @@
+ID:6390100
+AUTHOR:Michał
+Score:5/5
+IsRecomended:true
+Summary:Użytkuje tel. Już od ponad pół roku. Naprawdę super urządzenie. Do tej pory nie miałem zadnych problemow z telefonem.
+Advantages:aparat czas pracy na baterii funkcjonalność latwosc obslugi ładnie zdjecia nakładka systemowa normy wodoszczelności stabilność 
+Disadvantages:brak wbudowanego radia fm cena idiotycznie wysoka crapware czasami się zawiesza na kilka sekund mało odporny na upadek i uderzenia rysująca się osłona lampy błyskowej rysująca się osłona pulsometru rysujący się czytnik linii papilarnych 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-25 00:48:47

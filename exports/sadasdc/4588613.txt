@@ -1,0 +1,10 @@
+ID:4588613
+AUTHOR:user1977
+Score:5/5
+IsRecomended:true
+Summary:Jak to zwykle z Samsungami Galaxy S wszystko jest naprawdę na najwyższym poziomie.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-20 13:52:00

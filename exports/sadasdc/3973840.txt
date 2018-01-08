@@ -1,0 +1,10 @@
+ID:3973840
+AUTHOR:Zenon
+Score:4,5/5
+IsRecomended:true
+Summary:Funkcjonalny,spełnił moje oczekiwania.
+Advantages:funkcjonalność 
+Disadvantages:brak wbudowanego radia fm 
+LikesCount:1
+DislikesCount:1
+CreateDate:2016-09-22 16:53:25

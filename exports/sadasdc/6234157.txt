@@ -1,0 +1,10 @@
+ID:6234157
+AUTHOR:Dorota
+Score:5/5
+IsRecomended:true
+Summary:Wspaiały
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-21 11:38:40

@@ -1,0 +1,10 @@
+ID:3775474
+AUTHOR:jkjarek
+Score:2/5
+IsRecomended:false
+Summary:Największymi zaletami tego telefonu są wydajność (antutu 129000), jasny wyświetlacz, doby aparat, bateria wreszcie wytrzymuje mi cały dzień a ładowanie połowy baterii zajmuje 30 minut przy ładowarce 2A. Wady: codzienne wieszanie się różnych aplikacji, czytnik linii papilarnych działa aczkolwiek przykładać trzeba kilkukrotnie. Funkcjonalność wymaga przyzwyczajenia. Wiele rzeczy wydaje się łatwiejsze, lecz obsługa większości wydaje się nieprzemyślana np budzik, latarka, galeria zdjęć (np przenoszenie 100 zdjęć do innego folderu trwa ponad minutę w 4 letnim telefonie trwała kilkanaście sekund). Największą wadą tego telefonu jest trwałość a mianowicie jej brak. O ile inne telefony wytrzymały mi setki upadków, ten wytrzymał tylko jeden. Jak każdy podaje telefon jest śliski (niby głupota gdyż są etui). Mojemu nie pomogło nawet etui wystające 1mm nad ekranem. Gorilla Glass 4 reklamowany jak kuloodporny samochód tak naprawdę ma trwałość do pierwszego upadku. Poprzedni telefon z Corning Gorilla Glass pierwszej generacji wytrzymał 4 lata pracy. O ile dźwięk rozmowy przy górnej słuchawce jest bardzo dobry o tyle dźwięk na słuchawkach tylko przeciętny.
+Advantages:
+Disadvantages:stabilność 
+LikesCount:11
+DislikesCount:1
+CreateDate:2016-06-08 11:37:29

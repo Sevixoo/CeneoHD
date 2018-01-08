@@ -1,0 +1,10 @@
+ID:3827519
+AUTHOR:sensei
+Score:5/5
+IsRecomended:true
+Summary:super
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-07-16 22:44:41

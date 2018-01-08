@@ -1,0 +1,10 @@
+ID:3936956
+AUTHOR:mp
+Score:5/5
+IsRecomended:true
+Summary:jestem zadowolona, ładny itp :)
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-09-09 20:36:35

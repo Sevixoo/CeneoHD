@@ -1,0 +1,10 @@
+ID:3989047
+AUTHOR:Kamila
+Score:4/5
+IsRecomended:true
+Summary:Ogólnie, po miesiącu użytkowania mogę stwierdzić że jeszcze nie zaliczył zawieszenia ani zamulenia – zobaczymy co będzie później. Przesiadłam się z SIII i niestety mam wrażenie że ekran ma tendencje do zachowywania sobie na później dużo więcej odcisków paluchów niż by potrzebował i o ile w SIII wystarczyło delikatne przetarcie czymkolwiek to w tym przypadku nie udało mi się jeszcze ani razu tak naprawdę wyczyścić go żeby nie było smug itp. - to chyba jak na razie jedyna jego wada. Bateria przy normalnym użytkowaniu (trochę internetu po sieci, sms, rozmowy) nawet zdarzyło się że 5-6 dni, jednak WiFi skraca ten okres nawet do 2 a intensyne WiFi 1 dzień (masakra). Głośniki jak dla mnie ok, choć mogły by być ciut głośniejsze – ale to w końcu tylko telefon. Kiedyś zakochałam się w kolorach samsungowych wyświetlaczy i trzyma mnie do dziś – nic się nie zmienia. Jest to moja trzecia S i póki co nie zamierzam zmieniać tej linii.
+Advantages:funkcjonalność stabilność 
+Disadvantages:brak wbudowanego radia fm 
+LikesCount:2
+DislikesCount:0
+CreateDate:2016-09-28 08:43:52

@@ -1,0 +1,10 @@
+ID:4187764
+AUTHOR:Użytkownik Ceneo
+Score:4,5/5
+IsRecomended:true
+Summary:ten telefon z wygladu jest bardzo łady, całkiem niezły czas uzytkowania baterii, polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-13 22:29:43

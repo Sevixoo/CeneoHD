@@ -1,0 +1,10 @@
+ID:3987771
+AUTHOR:Anna
+Score:5/5
+IsRecomended:true
+Summary:Telefon bardzo dobry.Zadowolił moje oczekiwania.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-09-27 17:19:03

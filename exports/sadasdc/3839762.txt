@@ -1,0 +1,10 @@
+ID:3839762
+AUTHOR:Marcin
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobru telefon. Według mnie obecnie najlepszy flagowiec.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:5
+CreateDate:2016-07-23 17:01:10

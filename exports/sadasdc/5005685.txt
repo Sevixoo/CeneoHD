@@ -1,0 +1,10 @@
+ID:5005685
+AUTHOR:Ppp
+Score:4,5/5
+IsRecomended:true
+Summary:Super telefon.
+Advantages:brak wbudowanego radia fm cena idiotycznie wysoka crapware czas pracy na baterii czasami się zawiesza na kilka sekund funkcjonalność latwosc obslugi mało odporny na upadek i uderzenia rysująca się osłona lampy błyskowej rysująca się osłona pulsometru rysujący się czytnik linii papilarnych stabilność wygląd 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-09-04 11:12:05

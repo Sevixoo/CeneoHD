@@ -1,0 +1,10 @@
+ID:4233530
+AUTHOR:kajarek94
+Score:5/5
+IsRecomended:true
+Summary:Bardzo polecam ten telefon. Robi piękne zdjęcia, jest super wydajny, bateria długo trzyma. Ma dużo nowoczesnych opcji. Wart swojej ceny.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-11-25 15:00:05

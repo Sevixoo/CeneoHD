@@ -5,13 +5,12 @@
  */
 package com.project.importer;
 
-import com.project.CeneoHDApplication;
-import com.project.application.ETLProductUseCase;
-import com.project.application.ExtractProductUseCase;
-import com.project.application.SearchProductsUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dto.ProductDTO;
 import com.project.dto.ProductReviewsDTO;
+import com.project.entity.ProductEntity;
 import com.project.products.JTableButtonMouseListener;
 import com.project.products.JTableButtonRenderer;
 import com.project.products.ProductVM;
@@ -38,11 +37,11 @@ public class ExtractImporterPanel extends javax.swing.JPanel {
     
     private final UseCaseExecutor executor;
     
-    private final ExtractProductUseCase extractProductUseCase;
+    private final UseCase<String,ProductReviewsDTO> extractProductUseCase;
     
-    private final SearchProductsUseCase searchProductsUseCase;
+    private final UseCase<String,List<ProductDTO>> searchProductsUseCase;
     
-    private final ETLProductUseCase eTLProductUseCase;
+    private final UseCase<String,Void> eTLProductUseCase;
     
     private final SearchProductTableModel searchProductTableModel;
     

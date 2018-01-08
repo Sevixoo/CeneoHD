@@ -1,0 +1,10 @@
+ID:4273831
+AUTHOR:TOMEKTJ
+Score:4,5/5
+IsRecomended:true
+Summary:TO JEST TO
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-09 14:47:40

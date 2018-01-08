@@ -1,0 +1,10 @@
+ID:4256719
+AUTHOR:Adrian
+Score:4/5
+IsRecomended:true
+Summary:Świetny produkt, w świetnej cenie. Produkt bardzo wytrzymały. Świetnej jakości produkt. Jeżeli miałbym kupić ten lub inny produkt kupił bym ten produkt jeszcze raz. Szczerze polecam.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-12-04 18:47:42

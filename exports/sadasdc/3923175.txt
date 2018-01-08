@@ -1,0 +1,10 @@
+ID:3923175
+AUTHOR:heniekku
+Score:5/5
+IsRecomended:true
+Summary:Produkt posiadam od kilku tygodni, więc trudno napisać coś więcej. Na razie wszystko ok działa bez zarzutu, a jak będzie dalej zobaczymy.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-09-05 12:20:34

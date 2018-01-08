@@ -1,0 +1,10 @@
+ID:4440578
+AUTHOR:klient
+Score:5/5
+IsRecomended:true
+Summary:produkt spełnia rolę
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-02-18 08:19:04

@@ -1,0 +1,10 @@
+ID:4598486
+AUTHOR:ryskob
+Score:5/5
+IsRecomended:true
+Summary:Telefonik jak w opisach i dostępnych recenzjach, jestem zadowolony.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-24 10:39:03

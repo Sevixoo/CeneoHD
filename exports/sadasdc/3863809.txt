@@ -1,0 +1,10 @@
+ID:3863809
+AUTHOR:Andrzej
+Score:4,5/5
+IsRecomended:true
+Summary:Jest szybki, ładny choć raczej duży. Bateria jak na tak duży wyświetlacz daje radę choć mogła by dłużej działać.
+Advantages:
+Disadvantages:funkcjonalność 
+LikesCount:0
+DislikesCount:7
+CreateDate:2016-08-04 17:51:02

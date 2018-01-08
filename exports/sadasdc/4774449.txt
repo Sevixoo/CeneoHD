@@ -1,0 +1,10 @@
+ID:4774449
+AUTHOR:U...o
+Score:5/5
+IsRecomended:true
+Summary:Wszystko ok. Gdy przesyłanie danych internetowych jest włączane tylko gdy jest potrzebne, bateria trzyma około 4 dni.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-20 14:14:02

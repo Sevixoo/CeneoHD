@@ -1,0 +1,10 @@
+ID:4746277
+AUTHOR:Maciej
+Score:4,5/5
+IsRecomended:true
+Summary:Telefon prawie rewelacyjny. Szybki, super ekran, jeszcze lepszy aparat. Jedyny mały mankament, ale to wina egzemplarza (sprawdzałem na innej sztuce), to trochę głośno klikający klawisz menu. Nie wiem jak bateria, to okaże się w praniu.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-09 23:43:18

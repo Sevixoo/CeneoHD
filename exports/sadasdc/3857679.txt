@@ -1,0 +1,10 @@
+ID:3857679
+AUTHOR:A.
+Score:4,5/5
+IsRecomended:true
+Summary:Najlepszy i najładniejszy telefon z Androidem
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:5
+CreateDate:2016-08-02 10:56:42

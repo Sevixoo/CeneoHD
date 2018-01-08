@@ -1,0 +1,10 @@
+ID:4699111
+AUTHOR:Bartek
+Score:4,5/5
+IsRecomended:true
+Summary:Spełnił moje oczekiwania. Solidny telefon z niezbędnymi funkcjami. Jedyny minus to czujnik wilgoci w porcie ładowania, który wykrywając minimalną ilość wilgoci, przerywa ładowanie. Zdarza się to natomiast sporadycznie i zabezpiecza przed uszkodzeniem telefonu.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-05-25 13:26:43

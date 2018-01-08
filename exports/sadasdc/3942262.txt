@@ -1,0 +1,10 @@
+ID:3942262
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:Znakomity produkt, świetne wykonanie i adekwatna cena sprawiają że mogę go śmiało polecić.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-09-12 23:49:58

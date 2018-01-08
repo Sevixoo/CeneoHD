@@ -17,9 +17,9 @@ import java.util.stream.Collectors;
  *
  * @author seweryn
  */
-public class TransformProductUseCase implements UseCase<ProductReviewsDTO,ProductEntity>{
+class TransformProductUseCase implements UseCase<ProductReviewsDTO,ProductEntity>{
     
-    public TransformProductUseCase(){ }
+    TransformProductUseCase(){ }
     
     @Override
     public ProductEntity execute(ProductReviewsDTO productReviewsDto) throws Throwable{

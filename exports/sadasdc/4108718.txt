@@ -1,0 +1,10 @@
+ID:4108718
+AUTHOR:Klaudia
+Score:4/5
+IsRecomended:true
+Summary:Polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-10-26 21:52:09

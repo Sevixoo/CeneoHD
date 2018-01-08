@@ -1,0 +1,10 @@
+ID:4654827
+AUTHOR:Jurek
+Score:4/5
+IsRecomended:true
+Summary:Spoko
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-05-11 16:11:22

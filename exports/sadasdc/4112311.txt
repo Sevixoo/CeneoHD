@@ -1,0 +1,10 @@
+ID:4112311
+AUTHOR:darian
+Score:5/5
+IsRecomended:true
+Summary:Smartphone idealny.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-10-27 16:30:36

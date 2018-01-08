@@ -1,0 +1,10 @@
+ID:3816114
+AUTHOR:Joanna
+Score:5/5
+IsRecomended:true
+Summary:Polecam
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-07-09 21:54:01

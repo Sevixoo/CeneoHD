@@ -5,8 +5,8 @@
  */
 package com.project.splash;
 
-import com.project.CeneoHDApplication;
-import com.project.application.InitializeApplicationUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dashboard.DashboardForm;
 import java.awt.event.WindowEvent;
@@ -21,7 +21,7 @@ public class SplashForm extends javax.swing.JFrame {
 
     private final UseCaseExecutor executor;
     
-    private final InitializeApplicationUseCase initializeApplicationUseCase;
+    private final UseCase<Void, Void> initializeApplicationUseCase;
     
     /**
      * Creates new form SplashForm
@@ -52,7 +52,6 @@ public class SplashForm extends javax.swing.JFrame {
         setMaximumSize(new java.awt.Dimension(800, 600));
         setMinimumSize(new java.awt.Dimension(800, 600));
         setName("frameSplash"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(800, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(800, 600));
         addWindowListener(new java.awt.event.WindowAdapter() {

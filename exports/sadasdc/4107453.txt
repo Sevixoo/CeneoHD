@@ -1,0 +1,10 @@
+ID:4107453
+AUTHOR:masztan
+Score:5/5
+IsRecomended:true
+Summary:Mam go juz kilka miesięcy i jestem zadowolony. Bateria standardowo przy dużym po całym dniu chce aby ja naładować. Gdybym nie używał tak netu i oprogramowania (weź tu nie używaj) to spokojnie 2 dni. Ale szybkie ładowanie powoduje, że ok 1h z hakiem masz full naładowana baterie przy prawie całkowitym rozładowaniu.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-10-26 15:02:36

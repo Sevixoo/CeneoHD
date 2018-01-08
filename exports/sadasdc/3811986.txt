@@ -1,0 +1,10 @@
+ID:3811986
+AUTHOR:Czader
+Score:5/5
+IsRecomended:true
+Summary:Nie istnieje lepszy smartfon. Jak zresztą od lat większość flagowych modeli Samsunga.
+Advantages:funkcjonalność stabilność 
+Disadvantages:cena idiotycznie wysoka crapware czasami się zawiesza na kilka sekund 
+LikesCount:2
+DislikesCount:0
+CreateDate:2016-07-06 18:49:17

@@ -5,7 +5,7 @@
  */
 package com.project.data;
 
-import com.project.data.DatabaseException;
+import com.project.base.DatabaseException;
 import com.project.entity.ProductEntity;
 import com.project.entity.ReviewEntity;
 import java.util.List;

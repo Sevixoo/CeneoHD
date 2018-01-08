@@ -1,0 +1,10 @@
+ID:6283072
+AUTHOR:iuoj
+Score:5/5
+IsRecomended:true
+Summary:mbnfmv
+Advantages:czasami się zawiesza na kilka sekund latwosc obslugi stabilność 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-02 06:35:34

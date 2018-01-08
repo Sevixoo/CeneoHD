@@ -1,0 +1,10 @@
+ID:4977132
+AUTHOR:Konrad
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobrze
+Advantages:czas pracy na baterii funkcjonalność latwosc obslugi stabilność wygląd 
+Disadvantages:brak wbudowanego radia fm crapware rysująca się osłona lampy błyskowej rysująca się osłona pulsometru rysujący się czytnik linii papilarnych 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-08-25 10:40:27

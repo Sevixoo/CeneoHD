@@ -1,0 +1,10 @@
+ID:4150431
+AUTHOR:Wiks
+Score:5/5
+IsRecomended:true
+Summary:Wizualnie i funkcjonalnie super. Jedynie bateria mogłaby dłużej trzymać
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-11-04 17:34:36

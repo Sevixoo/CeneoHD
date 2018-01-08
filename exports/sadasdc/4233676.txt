@@ -1,0 +1,10 @@
+ID:4233676
+AUTHOR:Mariusz
+Score:5/5
+IsRecomended:true
+Summary:Telefon z serii Galaxy S ma swoją markę od lat. Chociaż z modelu na model przydałoby się trochę więcej innowacji, nowych funkcji, usprawnień. Gdyby nie to, że zbiła mi się szybka od S6 pewnie bym nie kupił S7.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:1
+CreateDate:2016-11-25 15:43:07

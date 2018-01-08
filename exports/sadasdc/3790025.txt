@@ -1,0 +1,10 @@
+ID:3790025
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:ok
+Advantages:
+Disadvantages:
+LikesCount:3
+DislikesCount:17
+CreateDate:2016-06-18 13:31:20

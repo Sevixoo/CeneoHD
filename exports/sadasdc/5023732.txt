@@ -1,0 +1,10 @@
+ID:5023732
+AUTHOR:Kishida
+Score:2,5/5
+IsRecomended:false
+Summary:Mam go ponad rok. Może parę razy coś mi się zawiesiło, natomiast boli bateria i "nieporysowalny" gorilla glass. Nie gram w gry, nie korzystam z zżerających API, a bateria wydaje się, że szybko pada jej żywotność po roku użytkowania Gorilla glass, którą niby może porysować jedynie papier ścierny to bujda. Mam 2 widoczne rysy, i parę mniejszych, mniej rzucających się w oczy. Nic szorstkiego nigdy do niego nie przykładałem. Za takie pieniądze (rok temu kosztował 2500-2700), trochę telefon rozczarowuje.
+Advantages:funkcjonalność wygląd 
+Disadvantages:czas pracy na baterii 
+LikesCount:0
+DislikesCount:2
+CreateDate:2017-09-09 13:42:09

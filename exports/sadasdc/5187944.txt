@@ -1,0 +1,10 @@
+ID:5187944
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:polecam
+Advantages:czas pracy na baterii funkcjonalność latwosc obslugi stabilność wygląd 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-04 09:30:22

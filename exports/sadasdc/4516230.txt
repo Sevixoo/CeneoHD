@@ -1,0 +1,10 @@
+ID:4516230
+AUTHOR:kusha
+Score:5/5
+IsRecomended:true
+Summary:sprawuje się bardzo dobrze
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-23 15:31:48

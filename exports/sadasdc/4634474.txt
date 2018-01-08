@@ -1,0 +1,10 @@
+ID:4634474
+AUTHOR:Karol
+Score:4,5/5
+IsRecomended:true
+Summary:ajfon to to nie jest ale OK, zloty to najlepszy kolor, od razu widac ze masz telefon, z daleka
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-05-05 11:50:48

@@ -1,0 +1,10 @@
+ID:4535648
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Świetny telefon.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-31 09:06:32

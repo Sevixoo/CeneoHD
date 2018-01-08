@@ -1,0 +1,10 @@
+ID:4542518
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Ideały nie istnieją, ale S7 niewiele brakuje do telefonu idealnego
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-03 20:52:36

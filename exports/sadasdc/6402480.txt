@@ -1,0 +1,10 @@
+ID:6402480
+AUTHOR:null
+Score:4/5
+IsRecomended:true
+Summary:Ma świetny aparat. Łatwo się go trzyma, zdjęcia mają super jakość. Gorąco polecam!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-28 10:13:19

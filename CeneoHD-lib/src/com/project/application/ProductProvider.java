@@ -7,7 +7,7 @@ package com.project.application;
 
 import com.project.provider.IProductProvider;
 import com.project.provider.IWebClientService;
-import com.project.provider.ProviderException;
+import com.project.base.ProviderException;
 import com.project.dto.ProductDTO;
 import com.project.dto.ReviewDTO;
 import java.net.URLEncoder;
@@ -27,7 +27,7 @@ class ProductProvider implements IProductProvider{
      
     private IWebClientService webClientService;
     
-    public ProductProvider(IWebClientService webClientService){
+    ProductProvider(IWebClientService webClientService){
         this.webClientService = webClientService;
     }
     

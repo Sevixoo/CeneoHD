@@ -1,0 +1,10 @@
+ID:4422643
+AUTHOR:Twoje imię lub nick:
+Score:5/5
+IsRecomended:true
+Summary:Zdjęcia duuuużo lepsze niż w s2. Łatwiej pisze się na klawiaturze niż w s2. Szybciej chodzi internet niż w s2.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2017-02-10 22:39:57

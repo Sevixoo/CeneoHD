@@ -1,0 +1,10 @@
+ID:3851003
+AUTHOR:R. Mazurkiewicz
+Score:4,5/5
+IsRecomended:true
+Summary:Użytkuję ten telefon od kilkunastu dni i jestem bardzo zadowolony. Niestety trochę wygórowana cena.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2016-07-29 12:14:28

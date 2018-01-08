@@ -1,0 +1,10 @@
+ID:3773775
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:Wysokiej jakości produkt w bardzo dobrej cenie. Gorąco polecam wszystkim zainteresowanym.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:5
+CreateDate:2016-06-06 22:08:06

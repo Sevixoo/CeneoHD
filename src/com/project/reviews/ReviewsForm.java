@@ -5,8 +5,8 @@
  */
 package com.project.reviews;
 
-import com.project.CeneoHDApplication;
-import com.project.application.LoadReviewsUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.entity.ReviewEntity;
 import com.project.products.ProductVM;
@@ -23,7 +23,7 @@ public class ReviewsForm extends javax.swing.JFrame {
 
     private final ProductVM productViewModel;
     
-    private final LoadReviewsUseCase loadReviewsUseCase;
+    private final UseCase<String, List<ReviewEntity>> loadReviewsUseCase;
     
     private final UseCaseExecutor useCaseExecutor;
     

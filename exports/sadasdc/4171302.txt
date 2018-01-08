@@ -1,0 +1,10 @@
+ID:4171302
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobry produkt, świetne wykonanie i niebanalne podejście pozwalają mi wydać rekomendacje. Gorąco polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-11-09 18:25:49

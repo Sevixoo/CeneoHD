@@ -1,0 +1,10 @@
+ID:3706543
+AUTHOR:Użytkownik Ceneo
+Score:4/5
+IsRecomended:true
+Summary:Super aparat ,i bardzo fajny telefonik, telefon jednak jest śliski i nie da się tego ukryć
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:5
+CreateDate:2016-04-21 15:08:37

@@ -1,0 +1,10 @@
+ID:5106155
+AUTHOR:Teodor
+Score:5/5
+IsRecomended:true
+Summary:Mam go dopiero 1 dzień i dlatego szersza opinia nie jest możliwa. Pewne cechy ad hoc wymieniłem powyżej.
+Advantages:czas pracy na baterii latwosc obslugi wygląd 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-10-06 19:20:44

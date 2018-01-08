@@ -1,0 +1,10 @@
+ID:4354906
+AUTHOR:jancyn
+Score:5/5
+IsRecomended:true
+Summary:Ci co popróbowali wiedzą, a ci co nie niech sprawdzą. Jak kupić to dobre albo najlepsze !
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-01-18 09:56:40

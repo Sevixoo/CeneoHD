@@ -1,0 +1,10 @@
+ID:4281062
+AUTHOR:INKO
+Score:5/5
+IsRecomended:true
+Summary:Polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-12-12 15:36:32

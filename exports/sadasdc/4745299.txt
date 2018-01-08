@@ -1,0 +1,10 @@
+ID:4745299
+AUTHOR:Weronika
+Score:5/5
+IsRecomended:true
+Summary:Produkt bardzo dobry, spełnia wszystkie moje oczekiwania.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-09 15:24:55

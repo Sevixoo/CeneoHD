@@ -1,0 +1,10 @@
+ID:4282961
+AUTHOR:Zach
+Score:3,5/5
+IsRecomended:null
+Summary:Apple ma reklamy Samsung ma Galaxy S7 Najlepszy na rynku
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-13 10:56:37

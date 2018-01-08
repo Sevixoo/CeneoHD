@@ -1,0 +1,10 @@
+ID:4070799
+AUTHOR:Użytkownik Ceneo
+Score:2/5
+IsRecomended:false
+Summary:Rewelacyjny wygląd, aparat, funkcjonalność. Niestety telefon spalił się po 5 dniach :(
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-10-19 09:02:00

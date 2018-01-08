@@ -1,0 +1,10 @@
+ID:3769454
+AUTHOR:Daniel
+Score:1/5
+IsRecomended:false
+Summary:telefon nie jest adekwatny do ceny która jest za wysoka, moim zdaniem lepszy jest s6 który polecam
+Advantages:
+Disadvantages:
+LikesCount:2
+DislikesCount:8
+CreateDate:2016-06-02 23:31:52

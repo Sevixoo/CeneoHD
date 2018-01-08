@@ -1,0 +1,10 @@
+ID:4551395
+AUTHOR:Ten sam Tygrys
+Score:5/5
+IsRecomended:true
+Summary:NAJLEPSZY!!!!!!!!!!!!!!!!!!!!!!!!!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-06 15:58:36

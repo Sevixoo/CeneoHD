@@ -1,0 +1,10 @@
+ID:4324206
+AUTHOR:antoni
+Score:5/5
+IsRecomended:true
+Summary:działa 1a
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2017-01-02 11:18:10

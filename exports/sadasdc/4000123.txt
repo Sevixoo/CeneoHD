@@ -1,0 +1,10 @@
+ID:4000123
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Niezłe cacko
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-10-01 21:56:49

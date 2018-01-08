@@ -5,10 +5,15 @@
  */
 package com.project.exporter;
 
-import com.project.CeneoHDApplication;
-import com.project.application.ExportReviewsUseCase;
+import com.project.CeneoHDApplication;  
+import com.project.application.ExportReviewsArgument;
+import com.project.application.ExportReviewsFormat;
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
+import com.project.entity.ProductEntity;
 import java.awt.event.WindowEvent;
+import java.io.File;
+import java.util.List;
 import javax.swing.JOptionPane;
 
 /**
@@ -19,7 +24,11 @@ public class ExporterForm extends javax.swing.JFrame {
 
     private final UseCaseExecutor executor;
     
-    private final ExportReviewsUseCase exportReviewsUseCase;
+    private final UseCase<ExportReviewsArgument, File> exportReviewsUseCase;
+    
+    private final UseCase<Void,List<ProductEntity>> loadProductsUseCase;
+    
+    private List<ProductEntity> products;
     /**
      * Creates new form ExporterForm
      */
@@ -27,10 +36,25 @@ public class ExporterForm extends javax.swing.JFrame {
         initComponents();
         executor = CeneoHDApplication.get().provideCeneoHDComponent().provideUseCaseExecutor();
         exportReviewsUseCase = CeneoHDApplication.get().provideCeneoHDComponent().provideExportReviewsUseCase();
+        loadProductsUseCase = CeneoHDApplication.get().provideCeneoHDComponent().provideLoadProductsUseCase();
         jComboBoxFormat.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { 
-            ExportReviewsUseCase.Format.CSV.name(), 
-            ExportReviewsUseCase.Format.TXT.name() 
+            ExportReviewsFormat.CSV.name(), 
+            ExportReviewsFormat.TXT.name() 
         }));
+        
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { 
+            "Wybierz..."
+        }));
+        
+        executor.execute(loadProductsUseCase, null, data -> {
+            products = data;
+            String productsNames[] = products.stream().map((t) -> {
+                return t.getName();
+            }).toArray(size -> new String[size]);
+            jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(productsNames));
+        }, ex -> {
+            displayException(ex);
+        });
     }
 
     /**
@@ -48,6 +72,7 @@ public class ExporterForm extends javax.swing.JFrame {
         jButtonCancel = new javax.swing.JButton();
         jButtonOk = new javax.swing.JButton();
         jComboBoxFormat = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(338, 128));
@@ -76,36 +101,43 @@ public class ExporterForm extends javax.swing.JFrame {
 
         jComboBoxFormat.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CSV", "TXT" }));
 
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jButtonCancel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonOk, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                    .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jComboBoxFormat, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jTextFieldFileName, javax.swing.GroupLayout.DEFAULT_SIZE, 326, Short.MAX_VALUE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jComboBoxFormat, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jTextFieldFileName, javax.swing.GroupLayout.DEFAULT_SIZE, 326, Short.MAX_VALUE)
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextFieldFileName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBoxFormat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jComboBoxFormat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButtonOk)
                     .addComponent(jButtonCancel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -121,13 +153,13 @@ public class ExporterForm extends javax.swing.JFrame {
 
     private void jButtonOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonOkActionPerformed
         
-        ExportReviewsUseCase.Argument argument = new ExportReviewsUseCase.Argument(
-                ExportReviewsUseCase.Format.valueOf(jComboBoxFormat.getSelectedItem().toString()),
-                jTextFieldFileName.getText()
+        ExportReviewsArgument argument = new ExportReviewsArgument(
+                ExportReviewsFormat.valueOf(jComboBoxFormat.getSelectedItem().toString()),
+                jTextFieldFileName.getText(),
+                products.get(jComboBox1.getSelectedIndex()).getRemoteId()
         );
         
-        executor.execute(exportReviewsUseCase, argument, file -> {
-             //TODO open file.. 
+        executor.execute(exportReviewsUseCase, argument, file -> { 
              dispose();
          }, ex -> {
             displayException(ex);
@@ -147,6 +179,7 @@ public class ExporterForm extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButtonCancel;
     private javax.swing.JButton jButtonOk;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBoxFormat;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField jTextFieldFileName;

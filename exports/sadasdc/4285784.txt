@@ -1,0 +1,10 @@
+ID:4285784
+AUTHOR:mich
+Score:4/5
+IsRecomended:true
+Summary:Dobry.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-14 13:12:10

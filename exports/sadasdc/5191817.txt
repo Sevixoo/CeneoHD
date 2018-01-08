@@ -1,0 +1,10 @@
+ID:5191817
+AUTHOR:ola
+Score:5/5
+IsRecomended:true
+Summary:Super pecam
+Advantages:
+Disadvantages:funkcjonalność 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-06 11:49:25

@@ -16,16 +16,21 @@ import javax.swing.JOptionPane;
  *
  * @author seweryn
  */
-public class ImporterForm extends javax.swing.JFrame implements 
-        ExtractImporterPanel.Listener, TransformImporterPanel.Listener,
+public class ImporterForm extends javax.swing.JFrame implements  ExtractImporterPanel.Listener, TransformImporterPanel.Listener,
         LoadImporterPanel.Listener {
 
+    public interface OnImportSuccessListener{
+        void onImportSuccess();
+    }
+    
     final static String EXTRACT_PANEL = "EXTRACT_PANEL";
     final static String TRANSFORM_PANEL = "card4";
     final static String LOAD_PANEL = "card5";
     
     
     private final CardLayout cardLayout;
+    
+    private OnImportSuccessListener onImportSuccessListener;
     
     /**
      * Creates new form ImporterForm
@@ -37,6 +42,10 @@ public class ImporterForm extends javax.swing.JFrame implements
         transformImporterPanel.setParentListener(this);
         loadImporterPanel.setParentListener(this);
         displayPanel(EXTRACT_PANEL);
+    }
+    
+    public void setOnImportSuccessListener(OnImportSuccessListener l){
+        onImportSuccessListener = l;
     }
     
     private void displayPanel(String panelName){
@@ -125,6 +134,7 @@ public class ImporterForm extends javax.swing.JFrame implements
     
     @Override
     public void onLoadSuccess(){
+        onImportSuccessListener.onImportSuccess();
         dispose();
     }
     

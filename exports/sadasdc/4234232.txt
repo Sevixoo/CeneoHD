@@ -1,0 +1,10 @@
+ID:4234232
+AUTHOR:darek
+Score:4/5
+IsRecomended:true
+Summary:jest ok. Chociaż to nie jest zakup o dobrej relacji cena/jakość
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-11-25 19:59:10

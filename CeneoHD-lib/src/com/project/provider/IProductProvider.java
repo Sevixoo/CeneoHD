@@ -5,6 +5,7 @@
  */
 package com.project.provider;
  
+import com.project.base.ProviderException;
 import com.project.dto.ProductDTO;
 import com.project.dto.ReviewDTO;
 import java.util.List;

@@ -1,0 +1,10 @@
+ID:4243386
+AUTHOR:Adam
+Score:5/5
+IsRecomended:true
+Summary:Powalająca szybkośc działania telefonu. To już jest w sumie przenośny komputer. Rewelacyjny aparat 16 MPix tył i 5 Mpix przód.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-11-29 10:37:27

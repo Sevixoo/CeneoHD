@@ -1,0 +1,10 @@
+ID:3802087
+AUTHOR:QArt
+Score:4,5/5
+IsRecomended:true
+Summary:Telefon zastąpił mi wcześniejszy model - S4. Różnica jest odczuwalna przede wszystkim w kwestii wielkości całego urządzenia (odrobinę za duży, jak na moją dłoń), jasności wyświetlacza oraz jakości obrazu. Początkowo telefon miał bardzo wolny czas reakcji albo w ogóle nie reagował (dotyczyło to ekranu blokady, aparatu oraz niektórych aplikacji). Po kilku dniach wszystko się zaktualizowało i jest już OK. Wszystko śmiga, jak należy. Bateria trzyma przyzwoicie, choć do czasów Nokii 3310 jeszcze nie udało się wrócić... ;) Zdecydowanie POLECAM ten produkt!
+Advantages:funkcjonalność stabilność 
+Disadvantages:czasami się zawiesza na kilka sekund 
+LikesCount:5
+DislikesCount:0
+CreateDate:2016-06-29 22:46:12

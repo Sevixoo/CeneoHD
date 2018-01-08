@@ -1,0 +1,10 @@
+ID:6417684
+AUTHOR:null
+Score:2/5
+IsRecomended:false
+Summary:Wieczny problem w łączeniem wifi
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-31 14:38:54

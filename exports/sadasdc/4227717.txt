@@ -1,0 +1,10 @@
+ID:4227717
+AUTHOR:mr.m
+Score:5/5
+IsRecomended:true
+Summary:bez zarzutu
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-22 22:42:26

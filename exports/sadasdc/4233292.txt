@@ -1,0 +1,10 @@
+ID:4233292
+AUTHOR:Rdd
+Score:4/5
+IsRecomended:true
+Summary:Czas pracy po ładowaniu i brak możliwości samodzielnej wymiany baterii to ogromne minusy.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-25 12:49:27

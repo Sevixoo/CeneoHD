@@ -1,0 +1,10 @@
+ID:3720866
+AUTHOR:Robert
+Score:3,5/5
+IsRecomended:null
+Summary:Pogodzenie się z pełną inwigilacją daje obustronne zadowolenie z korzystania ze sprzętu.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:23
+DislikesCount:20
+CreateDate:2016-04-29 12:51:10

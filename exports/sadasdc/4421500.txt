@@ -1,0 +1,10 @@
+ID:4421500
+AUTHOR:Beata
+Score:5/5
+IsRecomended:true
+Summary:Dobra
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-02-10 14:52:09

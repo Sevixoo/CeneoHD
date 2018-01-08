@@ -1,0 +1,10 @@
+ID:4925203
+AUTHOR:As
+Score:4/5
+IsRecomended:true
+Summary:Trochę brakuje wiadomości które miałem w telefonie Microsoft ale wszystko poza tym działa po stokroć lepiej! Czasem denerwuje że się szybko ściemnia ekran zanim zacznę przeczytać coś w telefonie - w Microsofcie "jasność" panowała dłużej ale ogólnie tamten telefon był znacznie we wszystkim wolniejszy.
+Advantages:latwosc obslugi stabilność wygląd 
+Disadvantages:czas pracy na baterii funkcjonalność 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-08-08 16:20:07

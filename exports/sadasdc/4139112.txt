@@ -1,0 +1,10 @@
+ID:4139112
+AUTHOR:Filip
+Score:5/5
+IsRecomended:true
+Summary:Super lepszy od s6
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-01 21:30:52

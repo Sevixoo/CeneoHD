@@ -1,0 +1,10 @@
+ID:3744091
+AUTHOR:Jurek
+Score:5/5
+IsRecomended:true
+Summary:Jeśli masz Galaxy S6 to nie musisz go zmieniać na S7. Jeśli masz starszy telefon to polecam nowego S7. Jest trochę lepszy.
+Advantages:funkcjonalność stabilność 
+Disadvantages:
+LikesCount:9
+DislikesCount:8
+CreateDate:2016-05-14 19:10:21

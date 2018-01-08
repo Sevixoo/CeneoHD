@@ -1,0 +1,10 @@
+ID:3889364
+AUTHOR:Michał
+Score:5/5
+IsRecomended:true
+Summary:Polecam telefon.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-08-18 19:43:44

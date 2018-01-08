@@ -1,0 +1,10 @@
+ID:4123565
+AUTHOR:Marcin
+Score:5/5
+IsRecomended:true
+Summary:super telefon piękny wygląd mega dużo opcji jedyna wada przy włączonym GPS i WiFi bateria trzyma 1 dzień nawet bez bawienia się telefonem pewnie GPS ciągle działa w tle - po wyłączeniu GPS przy normalnym użytkowaniu zużywa 15-20% baterii dziennie
+Advantages:
+Disadvantages:
+LikesCount:3
+DislikesCount:0
+CreateDate:2016-10-29 17:19:17

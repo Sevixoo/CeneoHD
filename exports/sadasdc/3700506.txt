@@ -1,0 +1,10 @@
+ID:3700506
+AUTHOR:Kamil
+Score:5/5
+IsRecomended:true
+Summary:jest bardzo dobry dlugo bede z niego korzystal
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-04-18 15:27:02

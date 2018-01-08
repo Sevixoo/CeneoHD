@@ -1,0 +1,10 @@
+ID:3839883
+AUTHOR:WINER
+Score:5/5
+IsRecomended:true
+Summary:Mega telefon
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2016-07-23 19:41:57

@@ -1,0 +1,10 @@
+ID:3724537
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Samsung galaxy s7 to jeden z najlepszych smartfonów na rynku. Ekran,
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:6
+CreateDate:2016-05-02 10:04:37

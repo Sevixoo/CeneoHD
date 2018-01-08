@@ -6,7 +6,7 @@
 package com.project.application;
 
 import com.project.data.DAO;
-import com.project.data.DatabaseException;
+import com.project.base.DatabaseException;
 import com.project.data.IORMLiteDataBase;
 import com.project.data.IProductRepository;
 import com.project.entity.ProductEntity;
@@ -23,7 +23,7 @@ class ProductRepository implements IProductRepository{
     private final DAO<ProductEntity> productDAO;
     private final DAO<ReviewEntity> reviewDAO;
     
-    public ProductRepository(IORMLiteDataBase database){
+    ProductRepository(IORMLiteDataBase database){
         this.productDAO = database.provideDAO(ProductEntity.class);
         this.reviewDAO = database.provideDAO(ReviewEntity.class);
     }

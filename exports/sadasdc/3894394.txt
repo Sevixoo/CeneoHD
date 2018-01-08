@@ -1,0 +1,10 @@
+ID:3894394
+AUTHOR:Romi
+Score:5/5
+IsRecomended:true
+Summary:Rewelka.
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-08-22 10:19:45

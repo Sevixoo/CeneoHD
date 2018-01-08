@@ -1,0 +1,10 @@
+ID:4857298
+AUTHOR:kasia
+Score:5/5
+IsRecomended:true
+Summary:świetny telefon, wart swojej ceny
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-07-17 13:39:36

@@ -1,0 +1,10 @@
+ID:4172256
+AUTHOR:Kajetan
+Score:5/5
+IsRecomended:true
+Summary:jak na razie jestem bardzo zadowolony
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-09 20:47:53

@@ -1,0 +1,10 @@
+ID:4027895
+AUTHOR:michał
+Score:5/5
+IsRecomended:true
+Summary:Spełnia wszystkie moje wymagania
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:2
+CreateDate:2016-10-10 07:02:43

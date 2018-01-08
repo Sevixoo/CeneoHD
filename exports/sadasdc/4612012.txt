@@ -1,0 +1,10 @@
+ID:4612012
+AUTHOR:A123
+Score:5/5
+IsRecomended:true
+Summary:Produkt spełnił moje oczekiwania, a nawet zaskoczył funkcjonalnością i wyglądem.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-27 11:48:46

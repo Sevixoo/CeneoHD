@@ -6,7 +6,7 @@
 package com.project.data;
  
 import com.project.data.DAO;
-import com.project.data.DatabaseException;
+import com.project.base.DatabaseException;
 
 
 /**

@@ -1,0 +1,10 @@
+ID:4786360
+AUTHOR:Aleksandra
+Score:5/5
+IsRecomended:true
+Summary:Zdjęcia lesze niż z aparatu, wygodny i lekki. Super wyświetlacz. Polecam
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-23 15:20:47

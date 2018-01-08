@@ -1,0 +1,10 @@
+ID:4471945
+AUTHOR:Karol
+Score:3,5/5
+IsRecomended:null
+Summary:Po 5 tygodniach korzystania jestem mocno rozczarowany tym telefonem. Liczyłem na to, że będzie wyraźnie lepszy od Nexusa 5, którego miałem wcześniej. Niestety telefon znacznie gorzej leży w dłoni, jest wyraźnie cięższy i łatwo go upuścić. Bateria ledwo starcza na cały dzień, podczas gdy w Nexusie ten problem pojawił się dopiero po 2 latach. Co prawda działa nieco szybciej, ale różnica jest bardzo niewielka. Oprogramowanie Samsunga też jest znacznie gorsze od czystego Androida, mnóstwo niepotrzbnych funkcji warto sobie wyłączyć, niestety aktualizacje systemu pojawiają się z dużym opóźnieniem.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-04 10:11:30

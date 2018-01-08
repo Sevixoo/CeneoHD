@@ -1,0 +1,10 @@
+ID:4492974
+AUTHOR:Maks
+Score:5/5
+IsRecomended:true
+Summary:Wszystko ok
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-14 15:19:58

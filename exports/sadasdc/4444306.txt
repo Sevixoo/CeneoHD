@@ -1,0 +1,10 @@
+ID:4444306
+AUTHOR:Iwona
+Score:4,5/5
+IsRecomended:true
+Summary:narazie ok
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-02-20 17:47:28

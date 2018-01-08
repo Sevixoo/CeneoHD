@@ -1,0 +1,10 @@
+ID:6320223
+AUTHOR:null
+Score:4/5
+IsRecomended:true
+Summary:Telefon świetny, w swojej klasie cenowej miażdży konkurencję, nie ma sobie równych. Koreańczyk płakał jak sprzedawał.
+Advantages:aparat, szybkość działania, nakładka systemowa, normy wodoszczelności, wygląd 
+Disadvantages:brak wbudowanego radia fm 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-10 10:34:12

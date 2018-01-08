@@ -1,0 +1,10 @@
+ID:4436634
+AUTHOR:Muzungu
+Score:4,5/5
+IsRecomended:true
+Summary:Świetny wyświetlacz, wygląd słuchawki przeciętny, jest stosunkowo niewielka i lekka (w porównaniu do starszego telefonu o podobnym rozmiarze ekranu, jaki miałem wcześniej). Najbardziej denerwująca jest masa preinstalowanego chłamu z fejsbukami i instagramami, które w ogóle mnie nie interesują, a których nie sposób wyrzucić bez zabawy w rootowanie. Uciążliwością jest podłączanie telefonu do komputera na kablu - notorycznie zrywa się połączenie i nieustannie muszę potwierdzać zezwolenie. W Sony nie trzeba nic potwierdzać - po prostu telefon się wpina i można przerzucać pliki.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-02-16 16:10:27

@@ -12,11 +12,11 @@ import com.project.data.IORMLiteDataBaseService;
  *
  * @author seweryn
  */
-public class ClearDatabaseUseCase implements UseCase<Void,Void>{
+class ClearDatabaseUseCase implements UseCase<Void,Void>{
    
     private final IORMLiteDataBaseService dataBaseService;
     
-    public ClearDatabaseUseCase( IORMLiteDataBaseService dataBaseService){
+    ClearDatabaseUseCase( IORMLiteDataBaseService dataBaseService){
         this.dataBaseService = dataBaseService;
     }
     

@@ -1,0 +1,10 @@
+ID:4384598
+AUTHOR:Marcin
+Score:5/5
+IsRecomended:true
+Summary:Polecam nic dodać nic ująć...
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-01-29 13:29:22

@@ -1,0 +1,10 @@
+ID:4318219
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Produkt bardzo dobry. Polecam 😄
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:1
+CreateDate:2016-12-29 17:59:32

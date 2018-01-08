@@ -1,0 +1,10 @@
+ID:4897792
+AUTHOR:Paweł
+Score:5/5
+IsRecomended:true
+Summary:Telefon bardzo dobry. Dotychczas sprawuje się bez zarzutów.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-07-29 21:17:00

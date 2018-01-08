@@ -1,0 +1,10 @@
+ID:4749905
+AUTHOR:Magda
+Score:4/5
+IsRecomended:true
+Summary:Jestem zadowolona z zakupu
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-12 08:53:55

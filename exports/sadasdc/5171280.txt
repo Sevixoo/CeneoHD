@@ -1,0 +1,10 @@
+ID:5171280
+AUTHOR:Michał
+Score:5/5
+IsRecomended:true
+Summary:Super sprzęt
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-10-30 12:56:16

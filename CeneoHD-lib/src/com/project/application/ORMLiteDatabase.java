@@ -11,7 +11,7 @@ import com.j256.ormlite.misc.TransactionManager;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 import com.project.data.DAO;
-import com.project.data.DatabaseException;
+import com.project.base.DatabaseException;
 import com.project.data.IORMLiteDataBase;
 import com.project.entity.ProductEntity;
 import com.project.entity.ReviewEntity;
@@ -41,6 +41,16 @@ class ORMLiteDatabase implements IORMLiteDataBase {
         try {
             TableUtils.createTable(connectionSource, ProductEntity.class );
             TableUtils.createTable(connectionSource, ReviewEntity.class ); 
+        }catch (SQLException ex){
+            ex.printStackTrace();
+            throw new RuntimeException(ex);
+        }
+    }
+    
+    public void onClearDatabase(){
+        try { 
+            TableUtils.clearTable(connectionSource, ReviewEntity.class ); 
+            TableUtils.clearTable(connectionSource, ProductEntity.class ); 
         }catch (SQLException ex){
             ex.printStackTrace();
             throw new RuntimeException(ex);

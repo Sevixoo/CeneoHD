@@ -1,0 +1,10 @@
+ID:3748364
+AUTHOR:Qba
+Score:5/5
+IsRecomended:true
+Summary:Solidny smartfon ze świetnymi osiągami, ale w zdecydowanie zawyżonej cenie.
+Advantages:funkcjonalność stabilność 
+Disadvantages:
+LikesCount:22
+DislikesCount:13
+CreateDate:2016-05-17 16:49:58

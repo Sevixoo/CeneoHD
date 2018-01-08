@@ -16,11 +16,11 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class SaveProductUseCase implements UseCase<ProductEntity,Void>{
+class SaveProductUseCase implements UseCase<ProductEntity,Void>{
     
     private final IProductRepository productRepository;
      
-    public SaveProductUseCase(IProductRepository productRepository){
+    SaveProductUseCase(IProductRepository productRepository){
         this.productRepository = productRepository; 
     }
     

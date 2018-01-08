@@ -1,0 +1,10 @@
+ID:4132313
+AUTHOR:julia
+Score:5/5
+IsRecomended:true
+Summary:Telefon wreszcie działa jak powinien działać telefon! Wszystko szybko śmiga, nie zacina się, robi fenomenalne zdjęcia. Mogę się przyczepić jedynie do szybko nagrzewającej się baterii. Polecam każdemu!
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-10-31 15:55:11

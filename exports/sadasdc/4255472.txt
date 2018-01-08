@@ -1,0 +1,10 @@
+ID:4255472
+AUTHOR:Użytkownik Ceneo
+Score:2,5/5
+IsRecomended:false
+Summary:Niestety jak na swiatowe standdardy cena telefonu przerasta jego funkcjonalność oczywiscie ma prosty całkiem niebrydki dizjan, ale wygląd samsungowo androidowego interfejsu jest conajmniej nieestetyczny. Aparat w porównaniu do nowego iphone'a także wypada blado. Telefon pozostawia wiele do życzenia, brak nowych funckji. W mojej opini również można znaleźć wiele innych bardziej ekonomicznych telefonów, nawet tej samej firrmy.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-04 12:13:32

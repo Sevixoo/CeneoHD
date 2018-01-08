@@ -1,0 +1,10 @@
+ID:4039149
+AUTHOR:Michał
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobry telefon, gdyby był tańszy, byłoby idealnie.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-10-12 10:30:04

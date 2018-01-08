@@ -1,0 +1,10 @@
+ID:4681167
+AUTHOR:Sławek
+Score:4/5
+IsRecomended:true
+Summary:Delikatny ekran, trzeba mieć dobre zabezpieczenie od stłuczenia.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-05-19 15:09:41

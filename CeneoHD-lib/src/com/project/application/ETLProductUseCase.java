@@ -5,27 +5,27 @@
  */
 package com.project.application;
 
-import com.project.base.UseCase;
-import com.project.data.IProductRepository;
-import com.project.entity.ProductEntity;
-import com.project.dto.ProductDTO;
-import com.project.dto.ProductReviewsDTO;
-import java.util.ArrayList;
-import java.util.List;
+import com.project.base.UseCase; 
+import com.project.entity.ProductEntity; 
+import com.project.dto.ProductReviewsDTO; 
 
 /**
  *
  * @author seweryn
  */
-public class ETLProductUseCase implements UseCase<String,Void>{
+class ETLProductUseCase implements UseCase<String,Void>{
     
-    private final ExtractProductUseCase extractProductUseCase;
+    private final UseCase<String,ProductReviewsDTO> extractProductUseCase;
     
-    private final TransformProductUseCase transformProductUseCase;
+    private final UseCase<ProductReviewsDTO,ProductEntity> transformProductUseCase;
     
-    private final SaveProductUseCase saveProductUseCase;
+    private final UseCase<ProductEntity,Void> saveProductUseCase;
      
-    public ETLProductUseCase(ExtractProductUseCase extractProductUseCase, TransformProductUseCase transformProductUseCase, SaveProductUseCase saveProductUseCase){
+    ETLProductUseCase(
+            UseCase<String,ProductReviewsDTO> extractProductUseCase, 
+            UseCase<ProductReviewsDTO,ProductEntity> transformProductUseCase, 
+            UseCase<ProductEntity,Void> saveProductUseCase
+    ){
         this.extractProductUseCase = extractProductUseCase; 
         this.transformProductUseCase = transformProductUseCase; 
         this.saveProductUseCase = saveProductUseCase; 

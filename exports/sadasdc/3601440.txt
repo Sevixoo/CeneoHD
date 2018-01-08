@@ -1,0 +1,10 @@
+ID:3601440
+AUTHOR:Janek
+Score:4/5
+IsRecomended:true
+Summary:Czy połaczenie tego urzadzenia jako okulary, jest zdrowe dla oczu? Czy nie jest to zbyt jasne światło?
+Advantages:
+Disadvantages:
+LikesCount:3
+DislikesCount:24
+CreateDate:2016-02-24 11:23:25

@@ -1,0 +1,10 @@
+ID:4500687
+AUTHOR:Maria
+Score:5/5
+IsRecomended:true
+Summary:Najlepszy telefon jaki miałam. Robi piękne zdjecia, filmy rewelacyjne, polączenia wielofunkcyjne. POLECAM !!!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-17 12:53:21

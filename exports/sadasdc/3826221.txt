@@ -1,0 +1,10 @@
+ID:3826221
+AUTHOR:Agaton
+Score:4,5/5
+IsRecomended:true
+Summary:Super
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:4
+CreateDate:2016-07-15 20:34:21

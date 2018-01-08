@@ -1,0 +1,10 @@
+ID:4233095
+AUTHOR:Iza
+Score:3,5/5
+IsRecomended:null
+Summary:Wszystko ok. Tylko się nagrzewa. Dla mnie jedyny minus.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-11-25 10:54:15

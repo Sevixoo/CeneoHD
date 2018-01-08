@@ -1,0 +1,10 @@
+ID:4575537
+AUTHOR:Lio
+Score:1,5/5
+IsRecomended:false
+Summary:Trzeba być nieżle walniętym, aby ten telefon kupić w tej cenie !!!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-15 21:33:48

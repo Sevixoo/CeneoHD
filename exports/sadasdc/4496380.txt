@@ -1,0 +1,10 @@
+ID:4496380
+AUTHOR:Stan
+Score:5/5
+IsRecomended:true
+Summary:przy włączonej większości aplikacji bateria trzyma dzień
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-15 23:36:17

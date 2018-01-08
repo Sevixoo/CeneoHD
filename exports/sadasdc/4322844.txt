@@ -1,0 +1,10 @@
+ID:4322844
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Bardzo funkcjonalny telefon, działa szybko i płynnie, a jego cena nie jest za wysoka. Gorąco polecam!
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2017-01-01 13:50:34

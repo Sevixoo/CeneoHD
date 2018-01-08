@@ -1,0 +1,10 @@
+ID:4206041
+AUTHOR:Mariola
+Score:5/5
+IsRecomended:true
+Summary:super telefon,dotarł szybko i bez żadnej skazy.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-11-17 13:18:35

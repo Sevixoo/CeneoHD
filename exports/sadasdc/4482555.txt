@@ -1,0 +1,10 @@
+ID:4482555
+AUTHOR:Użytkownik Ceneo
+Score:4/5
+IsRecomended:true
+Summary:Mam za krótko aby oceniać
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-03-09 13:11:09

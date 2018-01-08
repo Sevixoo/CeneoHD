@@ -1,0 +1,10 @@
+ID:6259365
+AUTHOR:Adrian
+Score:5/5
+IsRecomended:true
+Summary:Samsung galaxy s7 jest to bardzo dobry telefon nie zawodny poprostu najlepsz jaki moze byc z samsungow a najlepszy wybór jest na ceneo szybko sprawnie
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-27 22:13:03

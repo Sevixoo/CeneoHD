@@ -1,0 +1,10 @@
+ID:4677718
+AUTHOR:Marcin
+Score:4/5
+IsRecomended:true
+Summary:Bardzo udany telefon, pomijając czas pracy na baterii :)
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-05-18 15:29:10

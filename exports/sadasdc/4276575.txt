@@ -1,0 +1,10 @@
+ID:4276575
+AUTHOR:Użytkownik Ceneo
+Score:3/5
+IsRecomended:null
+Summary:nawet dobre specyfikacje dobry aprat lecz zbyt wysoka cena bo za 1300 zl mozna kupic xiaomi mi 5 gdzie mamy prawie identyczne specyfikacje i aprat a o 700 zl tanszy
+Advantages:cena idiotycznie wysoka funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-10 18:15:56

@@ -1,0 +1,10 @@
+ID:3635171
+AUTHOR:Paweł
+Score:4/5
+IsRecomended:true
+Summary:Jak narazie ok polecam
+Advantages:
+Disadvantages:
+LikesCount:7
+DislikesCount:51
+CreateDate:2016-03-10 15:07:30

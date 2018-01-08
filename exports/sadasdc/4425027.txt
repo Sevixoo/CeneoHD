@@ -1,0 +1,10 @@
+ID:4425027
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Dobry smartfon w dobrej cenie
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-02-12 15:46:57

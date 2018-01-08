@@ -1,0 +1,10 @@
+ID:4323248
+AUTHOR:Ziom
+Score:0,5/5
+IsRecomended:false
+Summary:Fatalna
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2017-01-01 19:40:28

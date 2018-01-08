@@ -1,0 +1,10 @@
+ID:4553048
+AUTHOR:Jan S
+Score:4,5/5
+IsRecomended:true
+Summary:Bardzo dobry aparat, pozwala robić szerokie selfie. Duża roździelczość ekranu, duża moc, wydajny, długo trzyma bateria.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-04-07 09:26:38

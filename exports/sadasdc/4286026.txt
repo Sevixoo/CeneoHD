@@ -1,0 +1,10 @@
+ID:4286026
+AUTHOR:Ambasador marki Samsung
+Score:5/5
+IsRecomended:true
+Summary:Galaxy S7 to najwyższej jakości sprzęt. Oprócz całkowicie nowych i przyspieszonych procesorów wykorzystano w jego aparacie opatentowaną przez Samsunga technologię dual pixels. Dzięki niej aparat łapie ostrość tak szybko jak ludzkie oko - żadna chwila nam nie ucieknie!
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-14 14:13:09

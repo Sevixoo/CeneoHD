@@ -16,11 +16,11 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class ExtractProductUseCase implements UseCase<String,ProductReviewsDTO>{
+class ExtractProductUseCase implements UseCase<String,ProductReviewsDTO>{
     
     private final IProductProvider productProvider;
     
-    public ExtractProductUseCase(IProductProvider productProvider){
+    ExtractProductUseCase(IProductProvider productProvider){
         this.productProvider = productProvider;
     }
     

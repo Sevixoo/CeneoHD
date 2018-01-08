@@ -1,0 +1,10 @@
+ID:4260460
+AUTHOR:Kubster412
+Score:5/5
+IsRecomended:true
+Summary:Fajny smartfonowe chciał bym takiego pod hoinkę
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-05 19:50:17

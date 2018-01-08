@@ -1,0 +1,10 @@
+ID:4353140
+AUTHOR:Elwis
+Score:4,5/5
+IsRecomended:true
+Summary:Smartphone ok lecz duża cena :P
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:1
+CreateDate:2017-01-17 12:10:23

@@ -1,0 +1,10 @@
+ID:3831026
+AUTHOR:Łukasz
+Score:5/5
+IsRecomended:true
+Summary:Produkt pierwsza klasa!
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:1
+DislikesCount:5
+CreateDate:2016-07-18 23:11:46

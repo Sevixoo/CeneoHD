@@ -14,11 +14,11 @@ import java.util.List;
  *
  * @author seweryn
  */
-public class LoadProductsUseCase implements UseCase<Void,List<ProductEntity>>{
+class LoadProductsUseCase implements UseCase<Void,List<ProductEntity>>{
      
     private IProductRepository productRepository;
     
-    public LoadProductsUseCase(IProductRepository productRepository){
+    LoadProductsUseCase(IProductRepository productRepository){
         this.productRepository = productRepository;
     }
     

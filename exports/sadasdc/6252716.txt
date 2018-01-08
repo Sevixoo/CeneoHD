@@ -1,0 +1,10 @@
+ID:6252716
+AUTHOR:null
+Score:3/5
+IsRecomended:null
+Summary:Samsung j5 2015 ogólnie sprawny lecz czasmi potrafi się zabijać lub całkowicie wyłączyć
+Advantages:rysujacy się aparat, ładnie zdjecia 
+Disadvantages:cena idiotycznie wysoka crapware czasami się zawiesza na kilka sekund funkcjonalność mało odporny na upadek i uderzenia rysująca się osłona lampy błyskowej rysująca się osłona pulsometru rysujący się czytnik linii papilarnych 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-11-25 12:53:36

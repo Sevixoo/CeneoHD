@@ -1,0 +1,10 @@
+ID:4293801
+AUTHOR:Kamil
+Score:5/5
+IsRecomended:true
+Summary:Telefon jest bardzo solidnie wykonany. Aparat wysokiej klasy, robi bardzo jasne zdjęcia. Głośnik słuchawki telefonu jest dość głośny i nie ma problemu z usłyszeniem rozmówcy nawet w hałaśliwym otoczeniu (taki problem występuje niestety w telefonach konkurencji m.in iPhone 6)
+Advantages:
+Disadvantages:
+LikesCount:2
+DislikesCount:0
+CreateDate:2016-12-18 12:59:35

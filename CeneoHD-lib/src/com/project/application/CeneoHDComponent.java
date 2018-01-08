@@ -5,21 +5,18 @@
  */
 package com.project.application;
 
-import com.project.application.ClearDatabaseUseCase;
-import com.project.application.ETLProductUseCase;
-import com.project.application.ExportReviewsUseCase;
-import com.project.application.ExtractProductUseCase;
-import com.project.application.InitializeApplicationUseCase;
-import com.project.application.LoadProductsUseCase;
-import com.project.application.LoadReviewsUseCase;
-import com.project.application.SaveProductUseCase;
-import com.project.application.SearchProductsUseCase;
-import com.project.application.TransformProductUseCase;
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.data.IORMLiteDataBaseService;
 import com.project.data.IProductRepository;
+import com.project.dto.ProductDTO;
+import com.project.dto.ProductReviewsDTO;
+import com.project.entity.ProductEntity;
+import com.project.entity.ReviewEntity;
 import com.project.provider.IProductProvider;
 import com.project.provider.IWebClientService;
+import java.io.File;
+import java.util.List;
 
 /**
  *
@@ -39,59 +36,59 @@ public class CeneoHDComponent {
         this.dataBaseService = new ORMLiteDataBaseService();
     }
      
-    public UseCaseExecutor provideUseCaseExecutor(){
-        return useCaseExecutor;
-    }
-    
-    public IWebClientService provideWebClientService(){
+    final IWebClientService provideWebClientService(){
         return webClientService;
     }
       
-    public IProductRepository provideProductRepository(){
+    final IProductRepository provideProductRepository(){
         return new ProductRepository(dataBaseService.provideDataBase());
     } 
     
-    public IProductProvider provideProductProvider(){
+    final IProductProvider provideProductProvider(){
         return new ProductProvider(provideWebClientService());
     }
     
-    public final ExtractProductUseCase provideExtractProductUseCase(){
-        return new ExtractProductUseCase(provideProductProvider());
+    public UseCaseExecutor provideUseCaseExecutor(){
+        return useCaseExecutor;
     }
-    
-    public final SaveProductUseCase provideSaveProductUseCase(){
-        return new SaveProductUseCase(provideProductRepository());
-    }
-    
-    public final TransformProductUseCase provideTransformProductUseCase(){
-        return new TransformProductUseCase();
-    }
-    
-    public final InitializeApplicationUseCase provideInitializeApplicationUseCase(){
+      
+    public final UseCase<Void, Void> provideInitializeApplicationUseCase(){
         return new InitializeApplicationUseCase(dataBaseService);
     }
     
-    public final LoadProductsUseCase provideLoadProductsUseCase(){
+    public final UseCase<String,ProductReviewsDTO> provideExtractProductUseCase(){
+        return new ExtractProductUseCase(provideProductProvider());
+    }
+    
+    public final UseCase<ProductEntity,Void> provideSaveProductUseCase(){
+        return new SaveProductUseCase(provideProductRepository());
+    }
+    
+    public final UseCase<ProductReviewsDTO,ProductEntity> provideTransformProductUseCase(){
+        return new TransformProductUseCase();
+    }
+     
+    public final UseCase<Void,List<ProductEntity>> provideLoadProductsUseCase(){
         return new LoadProductsUseCase(provideProductRepository());
     }
     
-    public final ExportReviewsUseCase provideExportReviewsUseCase(){
+    public final UseCase<ExportReviewsArgument, File> provideExportReviewsUseCase(){
         return new ExportReviewsUseCase(provideProductRepository(),new CSVExporterService(),new TxTExporterService());
     }
     
-    public final ClearDatabaseUseCase provideClearDatabaseUseCase(){
+    public final UseCase<Void,Void> provideClearDatabaseUseCase(){
         return new ClearDatabaseUseCase(dataBaseService);
     }
     
-    public final LoadReviewsUseCase provideLoadReviewsUseCase(){
+    public final UseCase<String, List<ReviewEntity>> provideLoadReviewsUseCase(){
         return new LoadReviewsUseCase(provideProductRepository());
     }
     
-    public final SearchProductsUseCase provideSearchProductsUseCase(){
+    public final UseCase<String,List<ProductDTO>> provideSearchProductsUseCase(){
         return new SearchProductsUseCase(provideProductProvider());
     }
     
-    public final ETLProductUseCase provideETLProductUseCase(){
+    public final UseCase<String,Void> provideETLProductUseCase(){
         return new ETLProductUseCase(
                 provideExtractProductUseCase(), 
                 provideTransformProductUseCase(), 

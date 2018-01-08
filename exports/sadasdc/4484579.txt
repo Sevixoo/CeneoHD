@@ -1,0 +1,10 @@
+ID:4484579
+AUTHOR:Leszek
+Score:4,5/5
+IsRecomended:true
+Summary:w pełni spełnia moje oczekiwania
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-10 11:13:47

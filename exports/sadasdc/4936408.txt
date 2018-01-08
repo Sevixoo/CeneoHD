@@ -1,0 +1,10 @@
+ID:4936408
+AUTHOR:U...o
+Score:5/5
+IsRecomended:true
+Summary:bardzo wydajny
+Advantages:czas pracy na baterii funkcjonalność wygląd 
+Disadvantages:czasami się zawiesza na kilka sekund 
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-08-11 12:31:13

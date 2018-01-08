@@ -1,0 +1,10 @@
+ID:4312072
+AUTHOR:Łukasz
+Score:5/5
+IsRecomended:true
+Summary:na pierwszy rzut oka jest fajny
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-12-27 13:53:36

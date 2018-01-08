@@ -1,0 +1,10 @@
+ID:4198276
+AUTHOR:bena113
+Score:5/5
+IsRecomended:true
+Summary:Idealny ! Po wielu zmianach telefonów to nareszcie jest TO:) Wygodny, piękny, funkcjonalny, działa bez zarzutu!
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-11-15 22:12:59

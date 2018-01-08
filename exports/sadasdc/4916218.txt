@@ -1,0 +1,10 @@
+ID:4916218
+AUTHOR:_marcin_
+Score:4,5/5
+IsRecomended:true
+Summary:Przy słabym zasięgu (nawet w centrum miasta) dźwięk się jakby kompresuje i nie słychać co mówi rozmówca z drugiej strony. Okropnie upierdliwa wada.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-08-04 15:51:13

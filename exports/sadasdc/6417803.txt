@@ -1,0 +1,10 @@
+ID:6417803
+AUTHOR:Leszek
+Score:4,5/5
+IsRecomended:true
+Summary:Wygodny-ergonomiczny, stabilna praca, dobry aparat, słaba bateria.
+Advantages:latwosc obslugi stabilność 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-12-31 16:13:19

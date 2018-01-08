@@ -1,0 +1,10 @@
+ID:4233321
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Polecam, bardzo szybki telefon, świetny wyświetlacz i aparat. Dobry i szybki GPS, jedynym minusem jest mocno przyciągająca odciski palców tylna obudowa.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-11-25 13:03:05

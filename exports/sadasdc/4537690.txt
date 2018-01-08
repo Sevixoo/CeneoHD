@@ -1,0 +1,10 @@
+ID:4537690
+AUTHOR:Wojtek
+Score:5/5
+IsRecomended:true
+Summary:Ładny, szybki, wygodny - jak za taki telefon cena rozsądna
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-03-31 19:04:24

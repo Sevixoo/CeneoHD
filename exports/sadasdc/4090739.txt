@@ -1,0 +1,10 @@
+ID:4090739
+AUTHOR:Piotr
+Score:5/5
+IsRecomended:true
+Summary:Znakomity produkt świetne wykonanie i bardzo dobra cena. Gorąco polecam wszystkim zainteresowanym
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2016-10-23 12:12:16

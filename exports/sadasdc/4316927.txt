@@ -1,0 +1,10 @@
+ID:4316927
+AUTHOR:Mateusz
+Score:5/5
+IsRecomended:true
+Summary:Super produkt,mega szybki i do tego mocno rzuca się w oczy nie zależnie jaki kolor się wybierze
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-12-29 10:57:44

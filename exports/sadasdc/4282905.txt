@@ -1,0 +1,10 @@
+ID:4282905
+AUTHOR:Wojciech
+Score:4,5/5
+IsRecomended:true
+Summary:Bardzo porządny telefon. Po S2, S4, S6 Edge+, S7 jest dobrym krokiem. Idealna wielkość - zwłaszcza dla kobiet (S6 Edge+ jest za duży). Różowy kolor jest elegancki - jest spokojny i stonowany. Klasyk. Wreszcie Samsung przywrócił karty pamięci. No i wodoszczelność. Aparat jest świetny, wszystko szybko i dobrze działa. Dzięki dostarczonemu kabelkowi USB (micro-micro) przeniesienie _wszystkich danych_ z poprzedniego Samsunga było proste. Zobaczymy po roku czy i jak zdegeneruje się bateria. Na moim S6 Edge+ po 13 miesiącach nadal bez problemu komórka wytrzymuje pełen dzień intensywnego używania (wieczorem zostaje jeszcze ok. 30% baterii). Mam nadzieje, że tutaj nie będzie gorzej.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2016-12-13 10:34:51

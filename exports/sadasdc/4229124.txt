@@ -1,0 +1,10 @@
+ID:4229124
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobre urządzenie. Działa szybko, nie muli, świetnie wykonane. Naprawdę ciężko powiedzieć złe słowo.
+Advantages:
+Disadvantages:
+LikesCount:2
+DislikesCount:0
+CreateDate:2016-11-23 16:53:47

@@ -1,0 +1,10 @@
+ID:4254981
+AUTHOR:Katarzyna
+Score:5/5
+IsRecomended:true
+Summary:Ekran i aparat o dobrych parametrach, bardzo wydajny procesor, dużo RAM-u, skaner biometryczny i spora bateria, a to wszystko zamknięte w wodoszczelnej obudowie. Super telefon tylko niestety nie na każdą kieszeń.
+Advantages:
+Disadvantages:
+LikesCount:2
+DislikesCount:0
+CreateDate:2016-12-04 07:14:19

@@ -1,0 +1,10 @@
+ID:3987553
+AUTHOR:Użytkownik Ceneo
+Score:0,5/5
+IsRecomended:false
+Summary:Bardzo dobry telefon
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:3
+CreateDate:2016-09-27 15:16:59

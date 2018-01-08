@@ -1,0 +1,10 @@
+ID:4636410
+AUTHOR:P...r
+Score:5/5
+IsRecomended:true
+Summary:Bardzo dobry produkt, świetna jakość i dobra cena. Zdecydowanie polecam wszystkim.
+Advantages:
+Disadvantages:
+LikesCount:1
+DislikesCount:0
+CreateDate:2017-05-05 19:09:13

@@ -5,8 +5,8 @@
  */
 package com.project.importer;
 
-import com.project.CeneoHDApplication;
-import com.project.application.TransformProductUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dto.ProductDTO;
 import com.project.dto.ProductReviewsDTO;
@@ -28,7 +28,7 @@ public class TransformImporterPanel extends javax.swing.JPanel {
     
     private final UseCaseExecutor executor;
     
-    private final TransformProductUseCase transformProductUseCase;
+    private final UseCase<ProductReviewsDTO,ProductEntity> transformProductUseCase;
     
     private Listener parentListener;
     

@@ -5,8 +5,8 @@
  */
 package com.project.importer;
 
-import com.project.CeneoHDApplication;
-import com.project.application.SaveProductUseCase;
+import com.project.CeneoHDApplication; 
+import com.project.base.UseCase;
 import com.project.base.UseCaseExecutor;
 import com.project.dto.ProductDTO;
 import com.project.entity.ProductEntity;
@@ -31,7 +31,7 @@ public class LoadImporterPanel extends javax.swing.JPanel {
     
     private final UseCaseExecutor executor;
     
-    private final SaveProductUseCase saveProductUseCase;
+    private final UseCase<ProductEntity,Void> saveProductUseCase;
     /**
      * Creates new form LoadImporterPanel
      */

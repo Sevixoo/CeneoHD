@@ -1,0 +1,10 @@
+ID:4531160
+AUTHOR:Radek
+Score:5/5
+IsRecomended:true
+Summary:Telefon zgrabny , działa bez zastrzeżeń
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-03-29 20:07:55

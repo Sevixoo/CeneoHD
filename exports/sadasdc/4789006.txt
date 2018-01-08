@@ -1,0 +1,10 @@
+ID:4789006
+AUTHOR:Damian
+Score:5/5
+IsRecomended:true
+Summary:Telefon spełnia wszelkie oczekiwania i nie mam do niego żadnych zarzutów.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-06-25 03:33:23

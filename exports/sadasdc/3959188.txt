@@ -1,0 +1,10 @@
+ID:3959188
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:OK
+Advantages:funkcjonalność 
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2016-09-17 09:34:46

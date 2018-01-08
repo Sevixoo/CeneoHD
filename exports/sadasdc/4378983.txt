@@ -1,0 +1,10 @@
+ID:4378983
+AUTHOR:EKOD-Gdynia
+Score:5/5
+IsRecomended:true
+Summary:Spełnia moje oczekiwania
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-01-27 08:48:01

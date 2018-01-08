@@ -1,0 +1,10 @@
+ID:4414960
+AUTHOR:Adam
+Score:5/5
+IsRecomended:true
+Summary:Wszystko OK
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:0
+CreateDate:2017-02-08 14:42:28

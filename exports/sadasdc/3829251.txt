@@ -1,0 +1,10 @@
+ID:3829251
+AUTHOR:Użytkownik Ceneo
+Score:5/5
+IsRecomended:true
+Summary:Spokojny design, intuicyjna obsługa, szybki i sprawnie działający system, świetny aparat i wyświetlacz.
+Advantages:
+Disadvantages:
+LikesCount:2
+DislikesCount:1
+CreateDate:2016-07-18 09:46:24

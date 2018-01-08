@@ -1,0 +1,10 @@
+ID:4529312
+AUTHOR:asd12
+Score:4,5/5
+IsRecomended:true
+Summary:Bardzo dobry telefon.
+Advantages:
+Disadvantages:
+LikesCount:0
+DislikesCount:1
+CreateDate:2017-03-29 12:33:40

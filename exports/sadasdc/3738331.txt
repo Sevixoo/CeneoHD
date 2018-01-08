@@ -1,0 +1,10 @@
+ID:3738331
+AUTHOR:Jacek
+Score:4,5/5
+IsRecomended:true
+Summary:Dobry smartfon z bardzo dobrym aparatem.
+Advantages:funkcjonalność 
+Disadvantages:crapware 
+LikesCount:1
+DislikesCount:6
+CreateDate:2016-05-11 11:34:01
