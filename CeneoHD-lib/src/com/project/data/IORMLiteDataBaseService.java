@@ -7,10 +7,7 @@ package com.project.data;
 
 import com.project.data.IORMLiteDataBase;
 
-/**
- *
- * @author seweryn
- */
+
 public interface IORMLiteDataBaseService {
     
     String getDatabaseName();

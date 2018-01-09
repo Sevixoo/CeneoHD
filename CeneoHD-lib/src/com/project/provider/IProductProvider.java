@@ -10,10 +10,6 @@ import com.project.dto.ProductDTO;
 import com.project.dto.ReviewDTO;
 import java.util.List;
 
-/**
- *
- * @author seweryn
- */
 public interface IProductProvider {
     
     List<ProductDTO> getProducts(String searchQuery) throws ProviderException; 

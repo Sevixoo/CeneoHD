@@ -1,0 +1,53 @@
+\section{com.\+project.\+base.\+Use\+Case$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$ Interface Template Reference}
+\label{interfacecom_1_1project_1_1base_1_1_use_case}\index{com.\+project.\+base.\+Use\+Case$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+C\+T, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+C\+T $>$@{com.\+project.\+base.\+Use\+Case$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+C\+T, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+C\+T $>$}}
+
+
+Inherited by com.\+project.\+application.\+Clear\+Database\+Use\+Case, com.\+project.\+application.\+E\+T\+L\+Product\+Use\+Case, com.\+project.\+application.\+Export\+Reviews\+Use\+Case, com.\+project.\+application.\+Extract\+Product\+Use\+Case, com.\+project.\+application.\+Initialize\+Application\+Use\+Case, com.\+project.\+application.\+Load\+Products\+Use\+Case, com.\+project.\+application.\+Load\+Reviews\+Use\+Case, com.\+project.\+application.\+Save\+Product\+Use\+Case, com.\+project.\+application.\+Search\+Products\+Use\+Case, and com.\+project.\+application.\+Transform\+Product\+Use\+Case.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT \textbf{ execute} (R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT request)  throws Throwable
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+seweryn
+\end{DoxyAuthor}
+Ten interfejs realizuje wzorzec polecenia. \doxyref{Use\+Case}{p.}{interfacecom_1_1project_1_1base_1_1_use_case} jest obiektem który może wykonać operacje, przyjmując argumentu (R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT) oraz zwracającą wynik (R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT). Operacja \doxyref{Use\+Case}{p.}{interfacecom_1_1project_1_1base_1_1_use_case}\textquotesingle{}a zazwyczaj odpowiada za rozwiązanie biznesowego przypadku użycia i jest wywołaniem blokującym. \doxyref{Use\+Case}{p.}{interfacecom_1_1project_1_1base_1_1_use_case} może zostać wykonany bezpośrednio wywołując metodę \doxyref{execute()}{p.}{interfacecom_1_1project_1_1base_1_1_use_case_ae994e67e62f836c4ec9499cef4eb8eef} lub za pomocą \doxyref{Use\+Case\+Executor}{p.}{interfacecom_1_1project_1_1base_1_1_use_case_executor}\textquotesingle{}a.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+C\+T$>$} & -\/ typ argumentu operacji \\
+\hline
+{\em $<$\+R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+C\+T$>$} & -\/ typ wyniku operacji \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{interfacecom_1_1project_1_1base_1_1_use_case_ae994e67e62f836c4ec9499cef4eb8eef}} 
+\index{com\+::project\+::base\+::\+Use\+Case@{com\+::project\+::base\+::\+Use\+Case}!execute@{execute}}
+\index{execute@{execute}!com\+::project\+::base\+::\+Use\+Case@{com\+::project\+::base\+::\+Use\+Case}}
+\subsubsection{execute()}
+{\footnotesize\ttfamily R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT \textbf{ com.\+project.\+base.\+Use\+Case}$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$.execute (\begin{DoxyParamCaption}\item[{R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT}]{request }\end{DoxyParamCaption}) throws Throwable}
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & -\/ argument operacji \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ wynik operacji 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Throwable} & -\/ błąd zgłoszony podczas wykonania \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/seweryn/\+Net\+Beans\+Projects/\+Ceneo\+H\+D/\+Ceneo\+H\+D-\/lib/src/com/project/base/Use\+Case.\+java\end{DoxyCompactItemize}

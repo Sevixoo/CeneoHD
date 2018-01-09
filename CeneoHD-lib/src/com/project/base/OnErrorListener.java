@@ -5,12 +5,16 @@
  */
 package com.project.base;
 
-/**
- *
+/** 
  * @author seweryn
+ * 
+ * Ten interface obsługuje zgłaszanie błędu podczas wykonania UseCase'a.
  */
 public interface OnErrorListener {
     
+    /**
+     * @param error - błąd zgłoszony podczas wykonania operacji
+     */
     void onError( Throwable error );
     
 }

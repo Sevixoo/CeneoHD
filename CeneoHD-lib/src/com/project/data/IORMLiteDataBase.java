@@ -9,10 +9,7 @@ import com.project.data.DAO;
 import com.project.base.DatabaseException;
 
 
-/**
- *
- * @author seweryn
- */
+
 public interface IORMLiteDataBase{
 
     <T> DAO<T> provideDAO(Class<T> clazz) throws DatabaseException;

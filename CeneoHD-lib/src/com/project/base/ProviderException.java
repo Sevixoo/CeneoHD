@@ -8,7 +8,6 @@ package com.project.base;
 
 
 /**
- *
  * @author seweryn
  */
 public class ProviderException extends Exception {

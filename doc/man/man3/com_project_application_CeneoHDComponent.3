@@ -1,0 +1,167 @@
+.TH "com.project.application.CeneoHDComponent" 3 "Tue Jan 9 2018" "CeneoHD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.project.application.CeneoHDComponent
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCeneoHDComponent\fP ()"
+.br
+.ti -1c
+.RI "\fBUseCaseExecutor\fP \fBprovideUseCaseExecutor\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< Void, Void > \fBprovideInitializeApplicationUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< String, \fBProductReviewsDTO\fP > \fBprovideExtractProductUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< \fBProductEntity\fP, Void > \fBprovideSaveProductUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< \fBProductReviewsDTO\fP, \fBProductEntity\fP > \fBprovideTransformProductUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< Void, List< \fBProductEntity\fP > > \fBprovideLoadProductsUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< \fBExportReviewsArgument\fP, File > \fBprovideExportReviewsUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< Void, Void > \fBprovideClearDatabaseUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< String, List< \fBReviewEntity\fP > > \fBprovideLoadReviewsUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< String, List< \fBProductDTO\fP > > \fBprovideSearchProductsUseCase\fP ()"
+.br
+.ti -1c
+.RI "final \fBUseCase\fP< String, Void > \fBprovideETLProductUseCase\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+seweryn
+.RE
+.PP
+Główny komponent aplikacji\&. Odgrywa rolę kontynera do wstrzykiwania zależności oraz udostępnia usługi\&. Po stworzeniu instancji należy wykonać usecase inicjalizujący a następnie można pobierać pozostałe komponenty aplikacji\&. W przeciwnym razie zostanie zgłoszony RuntimeException\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.project\&.application\&.CeneoHDComponent\&.CeneoHDComponent ()"
+Konstruktor domyślny 
+.SH "Member Function Documentation"
+.PP 
+.SS "final \fBUseCase\fP<Void,Void> com\&.project\&.application\&.CeneoHDComponent\&.provideClearDatabaseUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+ClearDatabaseUseCase, który czyści wszystkie tabele bazy danych\&.
+.RE
+.PP
+REQUEST_OBJECT null RESPONSE_OBJECT null 
+.SS "final \fBUseCase\fP<String,Void> com\&.project\&.application\&.CeneoHDComponent\&.provideETLProductUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+ETLProductUseCase, który pozwala na przeprowadzenie całego procesu ETL\&. Pobiera opinie na podstawie product_id, przekształca je na ancje a następnie zapisuje do bazy danych\&.
+.RE
+.PP
+REQUEST_OBJECT String - product_id RESPONSE_OBJECT null 
+.SS "final \fBUseCase\fP<\fBExportReviewsArgument\fP, File> com\&.project\&.application\&.CeneoHDComponent\&.provideExportReviewsUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+ExportReviewsUseCase, który może zostać użyty do wyeksportowania opini produktu do pliku CSV lub plików TXT\&.
+.RE
+.PP
+REQUEST_OBJECT \fBExportReviewsArgument\fP - zawiera konfiguracje eksportu RESPONSE_OBJECT File - stworzony plik lub folder 
+.SS "final \fBUseCase\fP<String,\fBProductReviewsDTO\fP> com\&.project\&.application\&.CeneoHDComponent\&.provideExtractProductUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+ExtractProductUseCase, który przeprowadza operacje pobierania opini produktu na podstawie product_id\&.
+.RE
+.PP
+REQUEST_OBJECT String - id produktu RESPONSE_OBJECT ProductReviewsDTO - dane produktu oraz lista opini 
+.SS "final \fBUseCase\fP<Void, Void> com\&.project\&.application\&.CeneoHDComponent\&.provideInitializeApplicationUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+InitializeApplicationUseCase odpowiedzialny za inicjalizacje aplikacji, który powinien zostać wykonany zaraz po stworzeniu komponentu \fBCeneoHDComponent\fP, przed pobraniem innych komponentów\&. Po wywołaniu zostanie stworzona baza danych i nawiązane z nią połączenie\&.
+.RE
+.PP
+REQUEST_OBJECT null RESPONSE_OBJECT null 
+.SS "final \fBUseCase\fP<Void,List<\fBProductEntity\fP> > com\&.project\&.application\&.CeneoHDComponent\&.provideLoadProductsUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+LoadProductsUseCase, który pobiera z bazy danych listę produktów\&.
+.RE
+.PP
+REQUEST_OBJECT null RESPONSE_OBJECT List<ProductEntity> - lista pobranych produktów 
+.SS "final \fBUseCase\fP<String, List<\fBReviewEntity\fP> > com\&.project\&.application\&.CeneoHDComponent\&.provideLoadReviewsUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+LoadReviewsUseCase, który pozwala pobrać listę opini danego produktu z bazy danych\&.
+.RE
+.PP
+REQUEST_OBJECT String - product_id RESPONSE_OBJECT List<ReviewEntity>> - lista encji opini 
+.SS "final \fBUseCase\fP<\fBProductEntity\fP,Void> com\&.project\&.application\&.CeneoHDComponent\&.provideSaveProductUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+SaveProductUseCase, który zapisuje encje do bazy danych\&.
+.RE
+.PP
+REQUEST_OBJECT ProductEntity - encja produktu zawierająca opinie RESPONSE_OBJECT null 
+.SS "final \fBUseCase\fP<String,List<\fBProductDTO\fP> > com\&.project\&.application\&.CeneoHDComponent\&.provideSearchProductsUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+SearchProductsUseCase, który przeprowadza operacje wyszukania produktów na podstawie wpisanej frazy\&.
+.RE
+.PP
+REQUEST_OBJECT String - szukana fraza RESPONSE_OBJECT List<ProductDTO> - lista wyników 
+.SS "final \fBUseCase\fP<\fBProductReviewsDTO\fP,\fBProductEntity\fP> com\&.project\&.application\&.CeneoHDComponent\&.provideTransformProductUseCase ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+TransformProductUseCase, który mapuje obiekt ProductReviewsDTO na encję ProductEntity\&.
+.RE
+.PP
+REQUEST_OBJECT ProductReviewsDTO - dane produktu i opinie RESPONSE_OBJECT ProductEntity - encja produktu 
+.SS "\fBUseCaseExecutor\fP com\&.project\&.application\&.CeneoHDComponent\&.provideUseCaseExecutor ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+UseCaseExecutor, który jest używany do wykonywania UseCasa'ów\&. Domyślna implementacja udostępnia instancje ThreadUseCaseExecutor, która wykonuje UseCase w tle za pomocą ThreadPoolExecutor\&. Możesz nadpisać tą metodę aby zaimplementować własny UseCaseExecutor\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CeneoHD from the source code\&.

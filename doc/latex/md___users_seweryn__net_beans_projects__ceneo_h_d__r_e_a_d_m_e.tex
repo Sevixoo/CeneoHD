@@ -1,0 +1,36 @@
+Ceneo\+HD -\/ Projekt. Proces E\+TL
+
+
+\begin{DoxyEnumerate}
+\item Stwórz aplikację, która pozwoli na przeprowadzenie procesu E\+TL na który składa się\+: a. pozyskanie danych ze źródeł zewnętrznych, b. poddanie danych odpowiednim przekształceniom, c. zasilenie danymi bazy danych.
+\item Celem działania aplikacji będzie pobranie z serwisu Ceneo.\+pl wszystkich opinii o produkcie, którego kod zostanie podany jako parametr. Dla uproszczenia działanie aplikacji można ograniczyć do produktów z działów Komputery, Fotografia oraz Telefony i akcesoria.
+\item Dla każdej opinii należy pobrać\+: a. Wady produktu b. Zalety produktu c. Podsumowanie opinii d. Liczba gwiazdek e. Autor opinii (jeśli brakuje, to np. anonim) f. Data wystawienia opinii g. P\+O\+L\+E\+C\+AM / N\+IE P\+O\+L\+E\+C\+AM h. Ile osób uznało opinię za przydatną, a ile za nieprzydatną W przypadku, gdy brakuje którejś wartości pole w tabeli należy pozostawić puste.
+\item Dla każdego produktu należy przechować w bazie danych\+: a. Rodzaj urządzenia b. Markę c. Model d. Dodatkowe uwagi
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Zadanie składa się z trzech części\+: a. Aplikacji b. Dokumentacji technicznej c. Dokumentacji użytkownika
+\item Aplikację należy stworzyć w dowolnej, wybranej przez siebie technologii. Podobnie bazę danych.
+\item Jeśli aplikacja ma formę aplikacji webowej należy umieścić ją na dowolnym serwerze (może to być serwer v-\/ie) tak, aby możliwy był do niej dostęp przez przeglądarkę internetową.
+\item W przypadku aplikacji w innej formie niż webowa należy określić minimalne wymagania potrzebne do zainstalowania/uruchomienia aplikacji (środowisko, biblioteki itp.)
+\item Aplikacja powinna mieć możliwość przeprowadzenia całego procesu E\+TL na raz (np. przycisk E\+TL) jak również przeprowadzenia każdej jego części oddzielnie – jedna po drugiej (np. trzy kolejne przyciski E, T, L).
+\item W przypadku wykonywania procesu E\+TL etapami wykonanie kolejnego etapu powinno być możliwe tylko po uprzednim wykonaniu wcześniejszego etapu (np. nie powinno się dać wykonać operacji Transform, jeśli wcześniej nie została wykonana operacja Extract).
+\item Po przeprowadzeniu pełnego procesu E\+TL lub ostatniego etapu Load produkty uboczne procesu (np. pobrane pliki) powinny być usuwane (tym samym po wykonaniu Load nie powinno być możliwości wykonania operacji Transform bez ponownego wykonania Extract).
+\item Po przeprowadzeniu pełnego procesu E\+TL jak również po każdej z jego składowych powinny być wyświetlane informacje statystyczne np. ile plików zostało pobranych, ile rekordów zostało załadowanych do bazy danych.
+\item Dane w bazie nie powinny się dublować – jeśli dana opinia zastała dodana do bazy przy poprzednim uruchomieniu procesu E\+TL nie powinna zostać dodana przy kolejnych. Podobnie w przypadku produktów.
+\item Aplikacja powinna mieć przycisk pozwalający na wyczyszczenie w bazie danych dotyczących opinii tak, aby możliwe było zaobserwowanie procesu zasilenia bazy opiniami.
+\item Aplikacja powinna umożliwiać wyświetlenie opinii z bazy w podziale na produkty, których opinie dotyczą.
+\item Dodatkowo aplikacja powinna mieć możliwość eksportu danych do pliku .csv (osobny przycisk lub opcja) i oddzielnych plików tekstowych dla każdej opinii
+\item Projekt powinien być uniwersalny – powinien nadal działać, gdy na stronie zostaną dodane nowe opinie lub jakaś opinia zostanie usunięta.
+\item Projekt powinien zawierać dokumentację techniczną (traktowaną jako opis A\+PI), która może być napisana podobnie do dokumentacji klas bibliotek Javy1
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Dokumentacja techniczna powinna zawierać\+: a. Nazwy i wersje użytych technologii (języki programowania, sposób przechowywania danych). b. Projekt fizyczny bazy danych wykorzystanej w projekcie. c. Informacje na temat środowiska, wymaganego do uruchomienia programu. d. Linki do oprogramowania, które to środowisko tworzą. e. (jeśli obiektowo) nazwy klas, tabelkę z listą i opisem atrybutów, tabelkę z listą i opisem (wartość zwracana, przyjmowane parametry, opis działania) funkcji składowych (z konstruktorami i destruktorami włącznie); f. (jeśli strukturalnie)\+: tabelkę z listą i opisem zmiennych, tabelkę z listą i opisem (wartość zwracana, przyjmowane parametry, opis działania) funkcji.
+\item Ponadto projekt powinien zawierać dokumentację użytkownika – instrukcje obsługi programu przedstawiającą krok po kroku (najlepiej ze zrzutami ekranu) jak z aplikacji korzystać począwszy od jej „instalacji” (sposobu uruchomienia) aż do wyświetlenia danych z bazy pobranych w trakcie działania aplikacji
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item Przez platformę e-\/learningową należy przesłać\+: a. Link do publicznego repozytorium Git z kodem aplikacji! b. Źródło danych określające strukturę przechowywanych danych wraz z przykładowymi danymi (np. kod S\+QL) c. Link do aplikacji jeśli ma ona postać aplikacji webowej d. Link do dokumentacji technicznej lub jej kod jeśli ma ona postać aplikacji e. Dokumentację techniczną oraz dokumentację użytkownika złożone w jeden spójny dokument tekstowy
+\item Jako stronę tytułową dokumentacji wykorzystaj plik dostępny na platformie elearningowej. Wypełnij tabelkę danymi członków zespołu. Podaj za jakie czynności odpowiadał każdy członek zespołu.
+\item Plikowi z dokumentacjami nadaj nazwę według wzoru\+: Numer\+Grupy\+Projektowej \+\_\+\+Projekt.\mbox{[}doc$\vert$docx\mbox{]}
+\item Prześlij pliki i linki przez platformę e-\/learningową w terminie wskazanych we właściwym zadaniu (aktywności). Wystarczy jeśli jedna osoba z grupy prześle pliki projektu.
+\item Wydrukowany dokument z instrukcjami przynieś na konsultacje na których zespół będzie prezentował i zaliczał projekt. 
+\end{DoxyEnumerate}

@@ -13,10 +13,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.UUID;
 
-/**
- *
- * @author seweryn
- */
+
 public class DAO<T> {
 
     private Dao<T, Long> ormDAO;

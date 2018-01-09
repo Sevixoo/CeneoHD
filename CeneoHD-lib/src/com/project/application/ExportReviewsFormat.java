@@ -6,8 +6,7 @@
 package com.project.application;
 
 /**
- *
- * @author seweryn
+ * @author seweryn Enum określa format eksportowanych opini.
  */
 public enum ExportReviewsFormat {
     TXT, CSV 

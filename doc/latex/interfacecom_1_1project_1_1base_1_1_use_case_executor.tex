@@ -1,0 +1,46 @@
+\section{com.\+project.\+base.\+Use\+Case\+Executor Interface Reference}
+\label{interfacecom_1_1project_1_1base_1_1_use_case_executor}\index{com.\+project.\+base.\+Use\+Case\+Executor@{com.\+project.\+base.\+Use\+Case\+Executor}}
+
+
+Inherited by com.\+project.\+application.\+Thread\+Use\+Case\+Executor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$ void \textbf{ execute} (\textbf{ Use\+Case}$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$ usecase, R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT argument, \textbf{ On\+Success\+Listener}$<$ R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$ on\+Success, \textbf{ On\+Error\+Listener} on\+Error)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+seweryn
+\end{DoxyAuthor}
+Ten interface realizuje wykonanie operacji \doxyref{Use\+Case}{p.}{interfacecom_1_1project_1_1base_1_1_use_case} i obsługuje dostarczenie jej wyniku. Jeśeli operacja wykonania jest przeprowadzana w tle, odpowiedź powinna zostać dostarczona w wątku UI. 
+
+\subsection{Member Function Documentation}
+\mbox{\label{interfacecom_1_1project_1_1base_1_1_use_case_executor_aa7bc0e001c7541e5eb846bc987af2e73}} 
+\index{com\+::project\+::base\+::\+Use\+Case\+Executor@{com\+::project\+::base\+::\+Use\+Case\+Executor}!execute@{execute}}
+\index{execute@{execute}!com\+::project\+::base\+::\+Use\+Case\+Executor@{com\+::project\+::base\+::\+Use\+Case\+Executor}}
+\subsubsection{execute()}
+{\footnotesize\ttfamily $<$R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT,R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT$>$ void com.\+project.\+base.\+Use\+Case\+Executor.\+execute (\begin{DoxyParamCaption}\item[{\textbf{ Use\+Case}$<$ R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT, R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$}]{usecase,  }\item[{R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT}]{argument,  }\item[{\textbf{ On\+Success\+Listener}$<$ R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT $>$}]{on\+Success,  }\item[{\textbf{ On\+Error\+Listener}}]{on\+Error }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em $<$\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+C\+T$>$} & -\/ typ argumentu operacji \\
+\hline
+{\em $<$\+R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+C\+T$>$} & -\/ typ wyniku operacji \\
+\hline
+{\em usecase} & -\/ \doxyref{Use\+Case}{p.}{interfacecom_1_1project_1_1base_1_1_use_case}, który ma być wykonany \\
+\hline
+{\em argument} & -\/ argument operacji \\
+\hline
+{\em on\+Success} & -\/ listener wywołany po wykonaniu operacji \\
+\hline
+{\em on\+Error} & -\/ listener wywołany w przypadku błędu wykonania \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/seweryn/\+Net\+Beans\+Projects/\+Ceneo\+H\+D/\+Ceneo\+H\+D-\/lib/src/com/project/base/Use\+Case\+Executor.\+java\end{DoxyCompactItemize}

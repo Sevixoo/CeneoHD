@@ -10,10 +10,7 @@ import com.project.entity.ProductEntity;
 import com.project.entity.ReviewEntity;
 import java.util.List;
 
-/**
- *
- * @author seweryn
- */
+
 public interface IProductRepository {
     
     List<ProductEntity> loadProducts() throws DatabaseException;

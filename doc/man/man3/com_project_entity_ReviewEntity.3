@@ -1,0 +1,329 @@
+.TH "com.project.entity.ReviewEntity" 3 "Tue Jan 9 2018" "CeneoHD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.project.entity.ReviewEntity
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBReviewEntity\fP ()"
+.br
+.ti -1c
+.RI "\fBReviewEntity\fP (String remoteId, String advantages, String disadvantages, String summary, String score, String author, Date createDate, Boolean isRecomended, int likesCount, int dislikesCount)"
+.br
+.ti -1c
+.RI "Long \fBgetId\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetRemoteId\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetProduct\fP (\fBProductEntity\fP product)"
+.br
+.ti -1c
+.RI "\fBProductEntity\fP \fBgetProduct\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetAdvantages\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAdvantages\fP (String advantages)"
+.br
+.ti -1c
+.RI "String \fBgetDisadvantages\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDisadvantages\fP (String disadvantages)"
+.br
+.ti -1c
+.RI "String \fBgetSummary\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSummary\fP (String summary)"
+.br
+.ti -1c
+.RI "String \fBgetScore\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetScore\fP (String score)"
+.br
+.ti -1c
+.RI "String \fBgetAuthor\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAuthor\fP (String author)"
+.br
+.ti -1c
+.RI "Date \fBgetCreateDate\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCreateDate\fP (Date createDate)"
+.br
+.ti -1c
+.RI "Boolean \fBgetIsRecomended\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetIsRecomended\fP (Boolean isRecomended)"
+.br
+.ti -1c
+.RI "int \fBgetLikesCount\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetLikesCount\fP (int likesCount)"
+.br
+.ti -1c
+.RI "int \fBgetDislikesCount\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDislikesCount\fP (int dislikesCount)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+seweryn
+.RE
+.PP
+Encja definiująca tabelę produktów w bazie danych\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.project\&.entity\&.ReviewEntity\&.ReviewEntity ()"
+Konstruktor domyślny 
+.SS "com\&.project\&.entity\&.ReviewEntity\&.ReviewEntity (String remoteId, String advantages, String disadvantages, String summary, String score, String author, Date createDate, Boolean isRecomended, int likesCount, int dislikesCount)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIremoteId\fP 
+.br
+\fIadvantages\fP 
+.br
+\fIdisadvantages\fP 
+.br
+\fIsummary\fP 
+.br
+\fIscore\fP 
+.br
+\fIauthor\fP 
+.br
+\fIcreateDate\fP 
+.br
+\fIisRecomended\fP 
+.br
+\fIlikesCount\fP 
+.br
+\fIdislikesCount\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getAdvantages ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the advantages 
+.RE
+.PP
+
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getAuthor ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the author 
+.RE
+.PP
+
+.SS "Date com\&.project\&.entity\&.ReviewEntity\&.getCreateDate ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the createDate 
+.RE
+.PP
+
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getDisadvantages ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the disadvantages 
+.RE
+.PP
+
+.SS "int com\&.project\&.entity\&.ReviewEntity\&.getDislikesCount ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the dislikesCount 
+.RE
+.PP
+
+.SS "Long com\&.project\&.entity\&.ReviewEntity\&.getId ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+id 
+.RE
+.PP
+
+.SS "Boolean com\&.project\&.entity\&.ReviewEntity\&.getIsRecomended ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the isRecomended 
+.RE
+.PP
+
+.SS "int com\&.project\&.entity\&.ReviewEntity\&.getLikesCount ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the likesCount 
+.RE
+.PP
+
+.SS "\fBProductEntity\fP com\&.project\&.entity\&.ReviewEntity\&.getProduct ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+productEntity 
+.RE
+.PP
+
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getRemoteId ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+remoteId 
+.RE
+.PP
+
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getScore ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the score 
+.RE
+.PP
+
+.SS "String com\&.project\&.entity\&.ReviewEntity\&.getSummary ()"
+
+.PP
+\fBReturns:\fP
+.RS 4
+the summary 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setAdvantages (String advantages)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIadvantages\fP the advantages to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setAuthor (String author)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIauthor\fP the author to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setCreateDate (Date createDate)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcreateDate\fP the createDate to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setDisadvantages (String disadvantages)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdisadvantages\fP the disadvantages to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setDislikesCount (int dislikesCount)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdislikesCount\fP the dislikesCount to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setIsRecomended (Boolean isRecomended)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIisRecomended\fP the isRecomended to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setLikesCount (int likesCount)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIlikesCount\fP the likesCount to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setProduct (\fBProductEntity\fP product)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIproduct\fP 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setScore (String score)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIscore\fP the score to set 
+.RE
+.PP
+
+.SS "void com\&.project\&.entity\&.ReviewEntity\&.setSummary (String summary)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsummary\fP the summary to set 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CeneoHD from the source code\&.

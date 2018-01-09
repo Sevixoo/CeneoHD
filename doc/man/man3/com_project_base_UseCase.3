@@ -1,0 +1,61 @@
+.TH "com.project.base.UseCase< REQUEST_OBJECT, RESPONSE_OBJECT >" 3 "Tue Jan 9 2018" "CeneoHD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.project.base.UseCase< REQUEST_OBJECT, RESPONSE_OBJECT >
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by com\&.project\&.application\&.ClearDatabaseUseCase, com\&.project\&.application\&.ETLProductUseCase, com\&.project\&.application\&.ExportReviewsUseCase, com\&.project\&.application\&.ExtractProductUseCase, com\&.project\&.application\&.InitializeApplicationUseCase, com\&.project\&.application\&.LoadProductsUseCase, com\&.project\&.application\&.LoadReviewsUseCase, com\&.project\&.application\&.SaveProductUseCase, com\&.project\&.application\&.SearchProductsUseCase, and com\&.project\&.application\&.TransformProductUseCase\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "RESPONSE_OBJECT \fBexecute\fP (REQUEST_OBJECT request)  throws Throwable"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+seweryn
+.RE
+.PP
+Ten interfejs realizuje wzorzec polecenia\&. \fBUseCase\fP jest obiektem który może wykonać operacje, przyjmując argumentu (REQUEST_OBJECT) oraz zwracającą wynik (RESPONSE_OBJECT)\&. Operacja \fBUseCase\fP'a zazwyczaj odpowiada za rozwiązanie biznesowego przypadku użycia i jest wywołaniem blokującym\&. \fBUseCase\fP może zostać wykonany bezpośrednio wywołując metodę \fBexecute()\fP lub za pomocą \fBUseCaseExecutor\fP'a\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI<REQUEST_OBJECT>\fP - typ argumentu operacji 
+.br
+\fI<RESPONSE_OBJECT>\fP - typ wyniku operacji 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "RESPONSE_OBJECT \fBcom\&.project\&.base\&.UseCase\fP< REQUEST_OBJECT, RESPONSE_OBJECT >\&.execute (REQUEST_OBJECT request) throws Throwable"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIrequest\fP - argument operacji 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+- wynik operacji 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIThrowable\fP - błąd zgłoszony podczas wykonania 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CeneoHD from the source code\&.

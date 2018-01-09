@@ -7,10 +7,7 @@ package com.project.provider;
 
 import com.project.base.ProviderException;
 
-/**
- *
- * @author seweryn
- */
+
 public interface IWebClientService {
     
     String get( String url )throws ProviderException;

@@ -1,0 +1,48 @@
+.TH "com.project.data.DAO< T >" 3 "Tue Jan 9 2018" "CeneoHD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.project.data.DAO< T >
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsave\fP (T item)  throws DatabaseException "
+.br
+.ti -1c
+.RI "void \fBdelete\fP (String remoteId)  throws DatabaseException "
+.br
+.ti -1c
+.RI "void \fBdeleteItem\fP (T item)  throws DatabaseException "
+.br
+.ti -1c
+.RI "QueryBuilder< T, Long > \fBqueryBuilder\fP ()"
+.br
+.ti -1c
+.RI "T \fBload\fP (String remoteId)  throws DatabaseException"
+.br
+.ti -1c
+.RI "List< T > \fBlist\fP ()  throws DatabaseException"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static< M > \fBDAO\fP< M > \fBcreate\fP (Class< M > clazz, Dao< M, Long > ormDAO)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDAO\fP (Class< T > clazz, Dao< T, Long > ormDAO)"
+.br
+.in -1c
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CeneoHD from the source code\&.

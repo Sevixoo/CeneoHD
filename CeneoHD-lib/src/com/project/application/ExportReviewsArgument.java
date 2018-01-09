@@ -6,8 +6,9 @@
 package com.project.application;
 
 /**
- *
- * @author seweryn
+ * @author seweryn 
+ * 
+ * Argument zawierający konfiguracje eksportu opini.
  */
 public class ExportReviewsArgument {
     
@@ -17,6 +18,11 @@ public class ExportReviewsArgument {
 
     public final String fileName;
 
+    /** 
+     * @param format - format eksportowanych opini
+     * @param fileName - nazwa pliku
+     * @param productRemoteId  - id product to wyeksportowania opini
+     */
     public ExportReviewsArgument(ExportReviewsFormat format,String fileName, String productRemoteId){
         this.format = format;
         this.productRemoteId = productRemoteId;

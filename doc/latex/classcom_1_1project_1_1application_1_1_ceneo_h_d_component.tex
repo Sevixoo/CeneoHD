@@ -1,0 +1,151 @@
+\section{com.\+project.\+application.\+Ceneo\+H\+D\+Component Class Reference}
+\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component}\index{com.\+project.\+application.\+Ceneo\+H\+D\+Component@{com.\+project.\+application.\+Ceneo\+H\+D\+Component}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Ceneo\+H\+D\+Component} ()
+\item 
+\textbf{ Use\+Case\+Executor} \textbf{ provide\+Use\+Case\+Executor} ()
+\item 
+final \textbf{ Use\+Case}$<$ Void, Void $>$ \textbf{ provide\+Initialize\+Application\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ String, \textbf{ Product\+Reviews\+D\+TO} $>$ \textbf{ provide\+Extract\+Product\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ \textbf{ Product\+Entity}, Void $>$ \textbf{ provide\+Save\+Product\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ \textbf{ Product\+Reviews\+D\+TO}, \textbf{ Product\+Entity} $>$ \textbf{ provide\+Transform\+Product\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ Void, List$<$ \textbf{ Product\+Entity} $>$ $>$ \textbf{ provide\+Load\+Products\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ \textbf{ Export\+Reviews\+Argument}, File $>$ \textbf{ provide\+Export\+Reviews\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ Void, Void $>$ \textbf{ provide\+Clear\+Database\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ String, List$<$ \textbf{ Review\+Entity} $>$ $>$ \textbf{ provide\+Load\+Reviews\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ String, List$<$ \textbf{ Product\+D\+TO} $>$ $>$ \textbf{ provide\+Search\+Products\+Use\+Case} ()
+\item 
+final \textbf{ Use\+Case}$<$ String, Void $>$ \textbf{ provide\+E\+T\+L\+Product\+Use\+Case} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+seweryn
+\end{DoxyAuthor}
+Główny komponent aplikacji. Odgrywa rolę kontynera do wstrzykiwania zależności oraz udostępnia usługi. Po stworzeniu instancji należy wykonać usecase inicjalizujący a następnie można pobierać pozostałe komponenty aplikacji. W przeciwnym razie zostanie zgłoszony Runtime\+Exception. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a032ecd41ce2b6351994e73b6b67cd87e}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!Ceneo\+H\+D\+Component@{Ceneo\+H\+D\+Component}}
+\index{Ceneo\+H\+D\+Component@{Ceneo\+H\+D\+Component}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{Ceneo\+H\+D\+Component()}
+{\footnotesize\ttfamily com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+Ceneo\+H\+D\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor domyślny 
+
+\subsection{Member Function Documentation}
+\mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a6b004c2a137ab6a1f5fb9e869b0d6e30}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Clear\+Database\+Use\+Case@{provide\+Clear\+Database\+Use\+Case}}
+\index{provide\+Clear\+Database\+Use\+Case@{provide\+Clear\+Database\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Clear\+Database\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$Void,Void$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Clear\+Database\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Clear\+Database\+Use\+Case, który czyści wszystkie tabele bazy danych.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT null R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT null \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a40c80dbc42262aab12e5bd240543657e}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+E\+T\+L\+Product\+Use\+Case@{provide\+E\+T\+L\+Product\+Use\+Case}}
+\index{provide\+E\+T\+L\+Product\+Use\+Case@{provide\+E\+T\+L\+Product\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+E\+T\+L\+Product\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$String,Void$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+E\+T\+L\+Product\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+E\+T\+L\+Product\+Use\+Case, który pozwala na przeprowadzenie całego procesu E\+TL. Pobiera opinie na podstawie product\+\_\+id, przekształca je na ancje a następnie zapisuje do bazy danych.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT String -\/ product\+\_\+id R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT null \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a8a711c9239e375461a2c854aa88bbaa6}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Export\+Reviews\+Use\+Case@{provide\+Export\+Reviews\+Use\+Case}}
+\index{provide\+Export\+Reviews\+Use\+Case@{provide\+Export\+Reviews\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Export\+Reviews\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$\textbf{ Export\+Reviews\+Argument}, File$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Export\+Reviews\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Export\+Reviews\+Use\+Case, który może zostać użyty do wyeksportowania opini produktu do pliku C\+SV lub plików T\+XT.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT \doxyref{Export\+Reviews\+Argument}{p.}{classcom_1_1project_1_1application_1_1_export_reviews_argument} -\/ zawiera konfiguracje eksportu R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT File -\/ stworzony plik lub folder \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a6f75b50aae33d90a90bfeacc2c6034c0}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Extract\+Product\+Use\+Case@{provide\+Extract\+Product\+Use\+Case}}
+\index{provide\+Extract\+Product\+Use\+Case@{provide\+Extract\+Product\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Extract\+Product\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$String,\textbf{ Product\+Reviews\+D\+TO}$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Extract\+Product\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Extract\+Product\+Use\+Case, który przeprowadza operacje pobierania opini produktu na podstawie product\+\_\+id.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT String -\/ id produktu R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT Product\+Reviews\+D\+TO -\/ dane produktu oraz lista opini \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_ac9ab1ca6002708c209133ad2d5fef869}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Initialize\+Application\+Use\+Case@{provide\+Initialize\+Application\+Use\+Case}}
+\index{provide\+Initialize\+Application\+Use\+Case@{provide\+Initialize\+Application\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Initialize\+Application\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$Void, Void$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Initialize\+Application\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Initialize\+Application\+Use\+Case odpowiedzialny za inicjalizacje aplikacji, który powinien zostać wykonany zaraz po stworzeniu komponentu \doxyref{Ceneo\+H\+D\+Component}{p.}{classcom_1_1project_1_1application_1_1_ceneo_h_d_component}, przed pobraniem innych komponentów. Po wywołaniu zostanie stworzona baza danych i nawiązane z nią połączenie.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT null R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT null \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_ad43cdd2d0c4c4708d6ef2630d9541194}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Load\+Products\+Use\+Case@{provide\+Load\+Products\+Use\+Case}}
+\index{provide\+Load\+Products\+Use\+Case@{provide\+Load\+Products\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Load\+Products\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$Void,List$<$\textbf{ Product\+Entity}$>$ $>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Load\+Products\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Load\+Products\+Use\+Case, który pobiera z bazy danych listę produktów.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT null R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT List$<$\+Product\+Entity$>$ -\/ lista pobranych produktów \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a0d1f0f387db9a4549fe0326d9b1860a0}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Load\+Reviews\+Use\+Case@{provide\+Load\+Reviews\+Use\+Case}}
+\index{provide\+Load\+Reviews\+Use\+Case@{provide\+Load\+Reviews\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Load\+Reviews\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$String, List$<$\textbf{ Review\+Entity}$>$ $>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Load\+Reviews\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Load\+Reviews\+Use\+Case, który pozwala pobrać listę opini danego produktu z bazy danych.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT String -\/ product\+\_\+id R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT List$<$\+Review\+Entity$>$$>$ -\/ lista encji opini \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a36944cb0e0615575180da8d36f5198d4}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Save\+Product\+Use\+Case@{provide\+Save\+Product\+Use\+Case}}
+\index{provide\+Save\+Product\+Use\+Case@{provide\+Save\+Product\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Save\+Product\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$\textbf{ Product\+Entity},Void$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Save\+Product\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Save\+Product\+Use\+Case, który zapisuje encje do bazy danych.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT Product\+Entity -\/ encja produktu zawierająca opinie R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT null \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a9c84ab3ea8304a4c833639c24b053019}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Search\+Products\+Use\+Case@{provide\+Search\+Products\+Use\+Case}}
+\index{provide\+Search\+Products\+Use\+Case@{provide\+Search\+Products\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Search\+Products\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$String,List$<$\textbf{ Product\+D\+TO}$>$ $>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Search\+Products\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Search\+Products\+Use\+Case, który przeprowadza operacje wyszukania produktów na podstawie wpisanej frazy.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT String -\/ szukana fraza R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT List$<$\+Product\+D\+T\+O$>$ -\/ lista wyników \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_a3ff5f29e28a6ecba18907bdf8881712c}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Transform\+Product\+Use\+Case@{provide\+Transform\+Product\+Use\+Case}}
+\index{provide\+Transform\+Product\+Use\+Case@{provide\+Transform\+Product\+Use\+Case}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Transform\+Product\+Use\+Case()}
+{\footnotesize\ttfamily final \textbf{ Use\+Case}$<$\textbf{ Product\+Reviews\+D\+TO},\textbf{ Product\+Entity}$>$ com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Transform\+Product\+Use\+Case (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Transform\+Product\+Use\+Case, który mapuje obiekt Product\+Reviews\+D\+TO na encję Product\+Entity.
+\end{DoxyReturn}
+R\+E\+Q\+U\+E\+S\+T\+\_\+\+O\+B\+J\+E\+CT Product\+Reviews\+D\+TO -\/ dane produktu i opinie R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+O\+B\+J\+E\+CT Product\+Entity -\/ encja produktu \mbox{\label{classcom_1_1project_1_1application_1_1_ceneo_h_d_component_ac9b70843eaae046721bd82e7a071f73f}} 
+\index{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}!provide\+Use\+Case\+Executor@{provide\+Use\+Case\+Executor}}
+\index{provide\+Use\+Case\+Executor@{provide\+Use\+Case\+Executor}!com\+::project\+::application\+::\+Ceneo\+H\+D\+Component@{com\+::project\+::application\+::\+Ceneo\+H\+D\+Component}}
+\subsubsection{provide\+Use\+Case\+Executor()}
+{\footnotesize\ttfamily \textbf{ Use\+Case\+Executor} com.\+project.\+application.\+Ceneo\+H\+D\+Component.\+provide\+Use\+Case\+Executor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Use\+Case\+Executor, który jest używany do wykonywania Use\+Casa\textquotesingle{}ów. Domyślna implementacja udostępnia instancje Thread\+Use\+Case\+Executor, która wykonuje Use\+Case w tle za pomocą Thread\+Pool\+Executor. Możesz nadpisać tą metodę aby zaimplementować własny Use\+Case\+Executor. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/seweryn/\+Net\+Beans\+Projects/\+Ceneo\+H\+D/\+Ceneo\+H\+D-\/lib/src/com/project/application/Ceneo\+H\+D\+Component.\+java\end{DoxyCompactItemize}

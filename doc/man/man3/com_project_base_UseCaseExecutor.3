@@ -1,0 +1,52 @@
+.TH "com.project.base.UseCaseExecutor" 3 "Tue Jan 9 2018" "CeneoHD" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.project.base.UseCaseExecutor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by com\&.project\&.application\&.ThreadUseCaseExecutor\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "< REQUEST_OBJECT, RESPONSE_OBJECT > void \fBexecute\fP (\fBUseCase\fP< REQUEST_OBJECT, RESPONSE_OBJECT > usecase, REQUEST_OBJECT argument, \fBOnSuccessListener\fP< RESPONSE_OBJECT > onSuccess, \fBOnErrorListener\fP onError)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+seweryn
+.RE
+.PP
+Ten interface realizuje wykonanie operacji \fBUseCase\fP i obsługuje dostarczenie jej wyniku\&. Jeśeli operacja wykonania jest przeprowadzana w tle, odpowiedź powinna zostać dostarczona w wątku UI\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "<REQUEST_OBJECT,RESPONSE_OBJECT> void com\&.project\&.base\&.UseCaseExecutor\&.execute (\fBUseCase\fP< REQUEST_OBJECT, RESPONSE_OBJECT > usecase, REQUEST_OBJECT argument, \fBOnSuccessListener\fP< RESPONSE_OBJECT > onSuccess, \fBOnErrorListener\fP onError)"
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fI<REQUEST_OBJECT>\fP - typ argumentu operacji 
+.br
+\fI<RESPONSE_OBJECT>\fP - typ wyniku operacji 
+.br
+\fIusecase\fP - \fBUseCase\fP, który ma być wykonany 
+.br
+\fIargument\fP - argument operacji 
+.br
+\fIonSuccess\fP - listener wywołany po wykonaniu operacji 
+.br
+\fIonError\fP - listener wywołany w przypadku błędu wykonania 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CeneoHD from the source code\&.
